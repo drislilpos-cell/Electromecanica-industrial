@@ -109,7 +109,7 @@
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="diagnostico-de-fallas.html" class="concepto-card">
 
                             <span>🧠</span>
 
@@ -122,7 +122,7 @@
 
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="inspeccion.html" class="concepto-card">
 
                             <span>🔎</span>
 
@@ -135,7 +135,7 @@
 
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="mantenimiento-industrial.html" class="concepto-card">
 
                             <span>🔧</span>
 
@@ -148,7 +148,7 @@
 
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="seguridad-en-mantenimiento.html" class="concepto-card">
 
                             <span>🦺</span>
 
@@ -161,7 +161,7 @@
 
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="plan-de-mantenimiento.html" class="concepto-card">
 
                             <span>📋</span>
 
@@ -186,8 +186,9 @@
                     <h2>🔧 Tipos de correctivo</h2>
 
                     <ul>
-                        <li><strong>Correctivo inmediato:</strong> se atiende la falla de forma urgente para restablecer el servicio.</li>
-                        <li><strong>Correctivo programado:</strong> se agenda la reparación cuando la falla no detiene por completo la operación.</li>
+                        <li><strong>Correctivo inmediato:</strong> se atiende la falla de forma urgente para restablecer el servicio, sin planear la reparación.</li>
+                        <li><strong>Correctivo programado:</strong> se agenda la reparación cuando la falla no detiene por completo la operación, aprovechando una parada prevista.</li>
+                        <li><strong>Correctivo diferido:</strong> la falla se detecta pero no impide operar; se documenta y se atiende en el siguiente ciclo de paro.</li>
                     </ul>
 
                     <p>
@@ -208,26 +209,67 @@
                     <div class="proximamente">
 
                         <p>
-                            1. Una bomba deja de funcionar durante la
-                            producción.
+                            1-Una bomba deja de funcionar durante la
+                            producción y se detiene la línea.
                         </p>
 
                         <p>
-                            2. Se realiza un diagnóstico para identificar
-                            la causa de la falla.
+                            2-Se realiza un diagnóstico: se revisa el
+                            consumo del motor, la presión y el estado
+                            del acoplamiento, y se identifica el
+                            rodamiento dañado.
                         </p>
 
                         <p>
-                            3. Se reemplaza el componente dañado y se
-                            verifica el funcionamiento.
+                            3-Se reemplaza el componente, se alinea el
+                            acoplamiento y se verifica el funcionamiento
+                            con el equipo en vacío y luego en carga.
                         </p>
 
                         <p>
-                            4. Se registra la falla para evitar que se
-                            repita.
+                            4-Se registra la falla, el tiempo de paro y
+                            la causa, para evitar que se repita.
+                        </p>
+
+                        <p>
+                            5-Si la falla se repite, se analiza la causa
+                            raíz y se pasa la tarea a un plan preventivo.
                         </p>
 
                     </div>
+
+                </section>
+
+
+                <!-- INDICADORES -->
+
+                <section class="apartado-curso">
+
+                    <h2>📊 Indicadores del correctivo</h2>
+
+                    <p>
+                        El correctivo se mide con tres indicadores
+                        básicos:
+                    </p>
+
+                    <p>
+                        <strong>Tiempo medio de reparación:</strong> MTTR = tiempo total de reparación / número de fallas
+                    </p>
+
+                    <p>
+                        <strong>Tiempo medio entre fallas:</strong> MTBF = tiempo de operación / número de fallas
+                    </p>
+
+                    <p>
+                        <strong>Disponibilidad:</strong> D = MTBF / (MTBF + MTTR)
+                    </p>
+
+                    <p>
+                        Un MTTR bajo indica reparaciones rápidas; un MTBF
+                        alto indica equipos confiables. La disponibilidad
+                        combina ambos y es la cifra que suele revisarse
+                        en la junta de producción.
+                    </p>
 
                 </section>
 
@@ -247,6 +289,7 @@
                         <li><strong>Sistemas hidráulicos:</strong> reparación de fugas y válvulas.</li>
                         <li><strong>Tableros eléctricos:</strong> reemplazo de contactores o protecciones.</li>
                         <li><strong>Máquinas herramienta:</strong> ajuste o cambio de componentes.</li>
+                        <li><strong>Sistemas neumáticos:</strong> sustitución de mangueras, racores y sellos.</li>
                     </ul>
 
                 </section>
@@ -259,10 +302,11 @@
                     <h2>⚠️ Errores comunes</h2>
 
                     <ul>
-                        <li>No diagnosticar correctamente la causa de la falla.</li>
-                        <li>Reparar sin las medidas de seguridad adecuadas.</li>
+                        <li>No diagnosticar correctamente la causa de la falla y cambiar piezas al azar.</li>
+                        <li>Reparar sin las medidas de seguridad adecuadas, como bloqueo y etiquetado.</li>
                         <li>No registrar las fallas y las reparaciones realizadas.</li>
                         <li>Usar repuestos de mala calidad o inadecuados.</li>
+                        <li>Convertir el correctivo en la única estrategia, sin plan preventivo.</li>
                     </ul>
 
                 </section>
@@ -283,10 +327,13 @@
                         <p>Restablecer el funcionamiento del equipo en el menor tiempo posible.</p>
 
                         <p><strong>3. ¿Qué tipos de correctivo existen?</strong></p>
-                        <p>Correctivo inmediato y correctivo programado.</p>
+                        <p>Correctivo inmediato, programado y diferido.</p>
 
                         <p><strong>4. ¿Por qué es importante registrar las fallas?</strong></p>
-                        <p>Para identificar causas repetitivas y evitar que vuelvan a ocurrir.</p>
+                        <p>Para identificar causas repetitivas, calcular indicadores y evitar que vuelvan a ocurrir.</p>
+
+                        <p><strong>5. Un equipo opera 400 h y falla 4 veces, con 5 h de reparación cada vez. ¿Cuál es su disponibilidad?</strong></p>
+                        <p>MTBF = 400 / 4 = 100 h; MTTR = 5 h; D = 100 / (100 + 5), es decir, 95,2 %.</p>
 
                     </div>
 
@@ -311,34 +358,11 @@
                         el menor tiempo posible.
                     </p>
 
-                </section>
-
-
-                <!-- PRÓXIMAMENTE -->
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>
-                            🖼️ Imágenes de mantenimiento correctivo.
-                        </p>
-
-                        <p>
-                            🛠️ Procedimientos de reparación de equipos.
-                        </p>
-
-                        <p>
-                            🧠 Técnicas de diagnóstico de fallas.
-                        </p>
-
-                        <p>
-                            📝 Ejercicios de mantenimiento correctivo.
-                        </p>
-
-                    </div>
+                    <p>
+                        Se evalúa con MTTR, MTBF y disponibilidad, y
+                        conviene reducirlo con diagnóstico y plan
+                        preventivo.
+                    </p>
 
                 </section>
 
