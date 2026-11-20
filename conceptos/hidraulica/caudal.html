@@ -2,365 +2,238 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Caudal | Hidráulica</title>
-
     <link rel="stylesheet" href="../../css/estilos.css">
-
 </head>
-
 
 <body>
 
-
 <header class="encabezado">
-
     <div class="contenedor">
-
         <h1>⚙️ Electromecánica Industrial</h1>
-
         <nav>
-
             <a href="../../index.html">Inicio</a>
-
             <a href="../../cursos.html">Cursos</a>
-
             <a href="../../imagenes.html">Imágenes</a>
-
             <a href="../../conceptos.html">Conceptos</a>
-
         </nav>
-
     </div>
-
 </header>
-
 
 <main>
 
+    <!-- ========================================= -->
+    <!-- HERO -->
+    <!-- ========================================= -->
 
     <section class="curso-hero">
-
         <div class="contenedor">
+            <a href="../hidraulica.html" class="volver">← Volver a hidráulica</a>
 
-            <a href="../hidraulica.html" class="volver">
-                ← Volver a hidráulica
-            </a>
-
-            <span class="etiqueta-semestre">
-                HIDRÁULICA
-            </span>
+            <span class="etiqueta-semestre">HIDRÁULICA</span>
 
             <h2>🌊 Caudal</h2>
 
-            <p>
-                Cantidad de fluido que circula por un punto del
-                sistema durante un determinado tiempo.
-            </p>
-
+            <p>Cantidad de fluido que circula por un punto del sistema durante un determinado tiempo.</p>
         </div>
-
     </section>
 
-
     <section class="seccion">
-
         <div class="contenedor">
-
             <div class="curso-contenido">
 
+                <!-- ========================================= -->
+                <!-- ¿QUÉ ES? -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
-
                     <h2>📖 ¿Qué es el caudal?</h2>
 
-                    <p>
-                        El caudal es la cantidad de fluido que circula
-                        por un punto del sistema durante un determinado
-                        tiempo.
-                    </p>
+                    <p>El caudal es la cantidad de fluido que circula por un punto del sistema durante un determinado tiempo.</p>
 
-                    <p>
-                        En un sistema hidráulico, el caudal determina
-                        la velocidad con la que se mueven los actuadores,
-                        como cilindros y motores hidráulicos.
-                    </p>
+                    <p>En un sistema hidráulico, el caudal determina la velocidad con la que se mueven los actuadores, como cilindros y motores hidráulicos.</p>
 
-                    <p>
-                        Se mide comúnmente en litros por minuto (L/min)
-                        o en metros cúbicos por hora.
-                    </p>
-
+                    <p>Se mide comúnmente en litros por minuto (L/min) o en metros cúbicos por hora.</p>
                 </section>
 
+                <!-- ========================================= -->
+                <!-- CONCEPTOS RELACIONADOS -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
-
                     <h2>🔗 Conceptos relacionados</h2>
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="presion-hidraulica.html" class="concepto-card">
                             <span>📊</span>
                             <h3>Presión hidráulica</h3>
                             <p>Fuerza por unidad de área del fluido.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="bomba-hidraulica.html" class="concepto-card">
                             <span>⚙️</span>
                             <h3>Bomba hidráulica</h3>
                             <p>Proporciona el flujo necesario al sistema.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="valvulas-direccionales.html" class="concepto-card">
                             <span>🔀</span>
                             <h3>Válvulas direccionales</h3>
                             <p>Controlan la dirección del flujo.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="cilindro-hidraulico.html" class="concepto-card">
                             <span>↔️</span>
                             <h3>Cilindro hidráulico</h3>
                             <p>Su velocidad depende del caudal.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="deposito-hidraulico.html" class="concepto-card">
                             <span>🛢️</span>
                             <h3>Depósito hidráulico</h3>
                             <p>Almacena el fluido del sistema.</p>
                         </a>
 
                     </div>
-
                 </section>
 
+                <!-- ========================================= -->
+                <!-- TIPOS DE CAUDAL -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
-
                     <h2>📐 Tipos de caudal</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            🌊 <strong>Caudal volumétrico:</strong> volumen
-                            de fluido por unidad de tiempo.
-                        </p>
-
-                        <p>
-                            ⚖️ <strong>Caudal másico:</strong> masa de fluido
-                            por unidad de tiempo.
-                        </p>
-
-                        <p>
-                            📊 <strong>Caudal nominal:</strong> valor de diseño
-                            de la bomba o del sistema.
-                        </p>
-
-                        <p>
-                            🔧 <strong>Caudal de fuga:</strong> flujo que se
-                            pierde por sellos o conexiones.
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Caudal volumétrico:</strong> volumen de fluido por unidad de tiempo. Es el más usado en hidráulica y se expresa en L/min.</li>
+                        <li><strong>Caudal másico:</strong> masa de fluido por unidad de tiempo, expresada en kg/s o kg/min.</li>
+                        <li><strong>Caudal nominal:</strong> valor de diseño de la bomba o del sistema, el que entrega en condiciones normales de trabajo.</li>
+                        <li><strong>Caudal de fuga:</strong> flujo que se pierde por sellos, juntas o conexiones y que no llega al actuador.</li>
+                    </ul>
                 </section>
 
+                <!-- ========================================= -->
+                <!-- FÓRMULA -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
+                    <h2>🧾 Fórmula del caudal</h2>
 
+                    <p>El caudal volumétrico se calcula dividiendo el volumen de fluido entre el tiempo que tarda en circular:</p>
+
+                    <p><strong>Q = V / t</strong></p>
+
+                    <p>Donde <strong>Q</strong> es el caudal, <strong>V</strong> el volumen y <strong>t</strong> el tiempo.</p>
+
+                    <p>También puede expresarse en función del área de la tubería y la velocidad del fluido:</p>
+
+                    <p><strong>Q = A · v</strong></p>
+
+                    <p>Donde <strong>A</strong> es el área de la sección transversal y <strong>v</strong> la velocidad del fluido.</p>
+                </section>
+
+                <!-- ========================================= -->
+                <!-- EJEMPLO -->
+                <!-- ========================================= -->
+
+                <section class="apartado-curso">
                     <h2>🧮 Ejemplo práctico</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1.</strong> Una bomba entrega un caudal de 20 L/min al circuito.</p>
 
-                        <p>
-                            1. Una bomba entrega un caudal de
-                            20 L/min al circuito.
-                        </p>
+                    <p><strong>2.</strong> El fluido circula por las tuberías hacia el actuador.</p>
 
-                        <p>
-                            2. El fluido circula por las tuberías
-                            hacia el actuador.
-                        </p>
+                    <p><strong>3.</strong> El caudal determina la velocidad de avance del cilindro.</p>
 
-                        <p>
-                            3. El caudal determina la velocidad de
-                            avance del cilindro.
-                        </p>
+                    <p><strong>4.</strong> Si se reduce el caudal, el cilindro se mueve más lento.</p>
 
-                        <p>
-                            4. Si se reduce el caudal, el cilindro
-                            se mueve más lento.
-                        </p>
+                    <p><strong>5.</strong> Si se aumenta el caudal, el cilindro se mueve más rápido.</p>
 
-                        <p>
-                            5. Si se aumenta el caudal, el cilindro
-                            se mueve más rápido.
-                        </p>
-
-                    </div>
-
+                    <p><strong>Cálculo:</strong> si el cilindro tiene un área de 10 cm² y recibe 20 L/min, la velocidad de avance es de 2 m/min.</p>
                 </section>
 
+                <!-- ========================================= -->
+                <!-- APLICACIONES -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
-
                     <h2>🏭 Aplicaciones</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            🔧 Control de velocidad de actuadores.
-                        </p>
-
-                        <p>
-                            🚜 Sistemas de elevación y maquinaria.
-                        </p>
-
-                        <p>
-                            ⚙️ Regulación de procesos industriales.
-                        </p>
-
-                        <p>
-                            🏗️ Sistemas de transmisión hidráulica.
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Control de velocidad de actuadores:</strong> regular el avance y retroceso de cilindros.</li>
+                        <li><strong>Sistemas de elevación y maquinaria:</strong> mover cargas de forma controlada.</li>
+                        <li><strong>Regulación de procesos industriales:</strong> mantener condiciones estables de operación.</li>
+                        <li><strong>Sistemas de transmisión hidráulica:</strong> transmitir potencia a motores hidráulicos.</li>
+                    </ul>
                 </section>
 
+                <!-- ========================================= -->
+                <!-- ERRORES COMUNES -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
-
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            ❌ Confundir caudal con presión.
-                        </p>
-
-                        <p>
-                            ❌ No considerar las pérdidas por fricción.
-                        </p>
-
-                        <p>
-                            ❌ Ignorar el caudal de fuga del sistema.
-                        </p>
-
-                        <p>
-                            ❌ Seleccionar una bomba con caudal insuficiente.
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Confundir caudal con presión:</strong> son magnitudes distintas; el caudal da velocidad y la presión, fuerza.</li>
+                        <li><strong>No considerar las pérdidas por fricción:</strong> reducen el caudal real que llega al actuador.</li>
+                        <li><strong>Ignorar el caudal de fuga:</strong> el sistema entrega menos de lo previsto.</li>
+                        <li><strong>Seleccionar una bomba con caudal insuficiente:</strong> los actuadores no alcanzan la velocidad requerida.</li>
+                    </ul>
                 </section>
 
+                <!-- ========================================= -->
+                <!-- EJERCICIOS -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
+                    <h2>📝 Ejercicios y preguntas de repaso</h2>
 
-                    <h2>📝 Ejercicios</h2>
+                    <p><strong>1. ¿Qué es el caudal y cómo se mide?</strong></p>
+                    <p>Es la cantidad de fluido que circula por un punto del sistema en un tiempo determinado. Se mide en L/min o en m³/h.</p>
 
-                    <div class="proximamente">
+                    <p><strong>2. ¿Cómo influye el caudal en la velocidad de un cilindro?</strong></p>
+                    <p>A mayor caudal, mayor velocidad de avance; a menor caudal, el movimiento es más lento.</p>
 
-                        <p>
-                            <strong>1.</strong> ¿Qué es el caudal y cómo
-                            se mide?
-                        </p>
+                    <p><strong>3. ¿Qué diferencia hay entre caudal volumétrico y caudal másico?</strong></p>
+                    <p>El volumétrico mide volumen por unidad de tiempo y el másico mide masa por unidad de tiempo.</p>
 
-                        <p>
-                            <strong>2.</strong> ¿Cómo influye el caudal
-                            en la velocidad de un cilindro?
-                        </p>
+                    <p><strong>4. ¿Por qué es importante considerar el caudal de fuga?</strong></p>
+                    <p>Porque reduce el caudal útil que llega al actuador y afecta el rendimiento del sistema.</p>
 
-                        <p>
-                            <strong>3.</strong> ¿Qué diferencia hay entre
-                            caudal volumétrico y caudal másico?
-                        </p>
+                    <p><strong>5. ¿Qué fórmula relaciona caudal, área y velocidad?</strong></p>
+                    <p>Q = A · v, donde A es el área de la sección y v la velocidad del fluido.</p>
 
-                        <p>
-                            <strong>4.</strong> ¿Por qué es importante
-                            considerar el caudal de fuga?
-                        </p>
-
-                    </div>
-
+                    <p><strong>6. Si una bomba entrega 30 L/min y el cilindro tiene un área de 15 cm², ¿cuál es la velocidad de avance?</strong></p>
+                    <p>La velocidad es de 2 m/min.</p>
                 </section>
 
+                <!-- ========================================= -->
+                <!-- RESUMEN -->
+                <!-- ========================================= -->
 
                 <section class="apartado-curso">
-
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>El caudal es la cantidad de fluido que circula por el sistema en un tiempo determinado.</p>
 
-                        <p>
-                            El caudal es la cantidad de fluido que circula
-                            por el sistema en un tiempo determinado.
-                        </p>
+                    <p>Determina la velocidad de los actuadores hidráulicos.</p>
 
-                        <p>
-                            Determina la velocidad de los actuadores
-                            hidráulicos.
-                        </p>
-
-                        <p>
-                            Su control permite regular el funcionamiento
-                            de máquinas y procesos.
-                        </p>
-
-                    </div>
-
+                    <p>Su control permite regular el funcionamiento de máquinas y procesos.</p>
                 </section>
-
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>
-                            🖼️ Imágenes de sistemas hidráulicos.
-                        </p>
-
-                        <p>
-                            🌊 Medición de caudal.
-                        </p>
-
-                        <p>
-                            🔧 Regulación y control de caudal.
-                        </p>
-
-                        <p>
-                            📝 Cuestionario de hidráulica.
-                        </p>
-
-                    </div>
-
-                </section>
-
 
             </div>
-
         </div>
-
     </section>
-
 
 </main>
 
-
 <footer>
-
     <p>© 2026 Electromecánica Industrial</p>
-
 </footer>
 
-
 </body>
-
 </html>
