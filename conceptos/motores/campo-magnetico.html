@@ -2,49 +2,31 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Campo magnético | Motores</title>
-
     <link rel="stylesheet" href="../../css/estilos.css">
-
 </head>
 
 <body>
 
 <header class="encabezado">
-
     <div class="contenedor">
-
         <h1>⚙️ Electromecánica Industrial</h1>
-
         <nav>
-
             <a href="../../index.html">Inicio</a>
-
             <a href="../../cursos.html">Cursos</a>
-
             <a href="../../imagenes.html">Imágenes</a>
-
             <a href="../../conceptos.html">Conceptos</a>
-
         </nav>
-
     </div>
-
 </header>
 
 <main>
 
     <!-- ENCABEZADO -->
-
     <section class="curso-hero">
-
         <div class="contenedor">
-
             <a href="../motores.html" class="volver">← Volver a motores</a>
 
             <span class="etiqueta-semestre">MOTORES</span>
@@ -52,217 +34,168 @@
             <h2>🧲 Campo magnético</h2>
 
             <p>Región del espacio donde se manifiestan fuerzas magnéticas que actúan sobre cargas en movimiento.</p>
-
         </div>
-
     </section>
 
     <!-- INTRODUCCIÓN -->
-
     <section class="seccion">
-
         <div class="contenedor">
-
             <div class="curso-contenido">
 
                 <section class="apartado-curso">
-
                     <h2>🧲 ¿Qué es el campo magnético?</h2>
 
-                    <p>El campo magnético es la región del espacio donde se manifiestan fuerzas magnéticas que actúan sobre cargas en movimiento, como los electrones que circulan por los conductores.</p>
+                    <p>El campo magnético es la región del espacio donde se manifiestan fuerzas magnéticas que actúan sobre cargas en movimiento, sobre conductores que transportan corriente y sobre materiales ferromagnéticos como el hierro.</p>
 
-                    <p>En Electromecánica Industrial, el campo magnético es el principio fundamental del funcionamiento de los motores eléctricos, ya que la interacción entre el campo del estator y el del rotor genera el movimiento.</p>
+                    <p>En Electromecánica Industrial, el campo magnético es el principio fundamental del funcionamiento de los motores eléctricos: la interacción entre el campo giratorio del estator y las corrientes inducidas en el rotor genera el par que produce el movimiento.</p>
 
-                    <p>Se representa mediante líneas de campo y se mide en teslas(T), según la norma IEC.</p>
-
+                    <p>Se representa mediante líneas de campo y se mide en teslas (T), unidad del Sistema Internacional que la norma IEC adopta en sus publicaciones electrotécnicas.</p>
                 </section>
 
                 <!-- CONCEPTOS RELACIONADOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📚 Conceptos relacionados</h2>
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="estator.html" class="concepto-card">
                             <span>🔩</span>
                             <h3>Estator</h3>
                             <p>Parte fija del motor que contiene los bobinados que generan el campo magnético.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="rotor.html" class="concepto-card">
                             <span>🌀</span>
                             <h3>Rotor</h3>
                             <p>Parte giratoria del motor que transforma el campo en movimiento mecánico.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="motor-induccion.html" class="concepto-card">
                             <span>🔁</span>
                             <h3>Motor de inducción</h3>
                             <p>Motor que funciona por inducción electromagnética entre estator y rotor.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="arranque.html" class="concepto-card">
                             <span>🚀</span>
                             <h3>Arranque</h3>
                             <p>Proceso de poner en marcha un motor eléctrico.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="par-motor.html" class="concepto-card">
                             <span>🔧</span>
                             <h3>Par motor</h3>
                             <p>Fuerza de giro que produce un motor para mover una carga.</p>
                         </a>
 
                     </div>
-
                 </section>
 
                 <!-- TIPOS -->
-
                 <section class="apartado-curso">
+                    <h2>🧬 Tipos de campo magnético en un motor</h2>
 
-                    <h2>🧬 Tipos de campo magnético</h2>
+                    <ul>
+                        <li><strong>Campo del estator:</strong> campo giratorio generado por los bobinados del estator al circular la corriente alterna trifásica.</li>
+                        <li><strong>Campo inducido en el rotor:</strong> campo producido por las corrientes que el campo giratorio induce en las barras o el devanado del rotor.</li>
+                        <li><strong>Campo resultante en el entrehierro:</strong> suma vectorial de los dos anteriores; es el que realmente arrastra el rotor.</li>
+                        <li><strong>Campo de excitación:</strong> campo generado por los polos de excitación en los motores de corriente directa y en los generadores síncronos.</li>
+                    </ul>
 
-                    <div class="proximamente">
+                    <p>La velocidad del campo giratorio se llama velocidad de sincronismo y depende de la frecuencia y del número de polos: n = 120 × f / p, con n en rpm, f en Hz y p el número de polos.</p>
+                </section>
 
-                        <p><strong>Campo magnético del estator:</strong> campo giratorio generado por los bobinados del estator al circular la corriente alterna.</p>
+                <!-- MAGNITUDES -->
+                <section class="apartado-curso">
+                    <h2>📐 Magnitudes y unidades</h2>
 
-                        <p><strong>Campo magnético del rotor:</strong> campo inducido en el rotor por el campo giratorio del estator.</p>
+                    <ul>
+                        <li><strong>Densidad de flujo magnético (B):</strong> tesla (T). Es la magnitud que se mide con un teslámetro.</li>
+                        <li><strong>Flujo magnético (Φ):</strong> weber (Wb). Es el producto de B por el área que atraviesa.</li>
+                        <li><strong>Intensidad de campo magnético (H):</strong> ampere por metro (A/m).</li>
+                        <li><strong>Fuerza magnetomotriz (FMM):</strong> ampere-vuelta (A·v); depende de la corriente y del número de espiras.</li>
+                    </ul>
 
-                        <p><strong>Campo magnético rotativo:</strong> campo que gira en el entrehierro del motor y arrastra el rotor.</p>
-
-                        <p><strong>Campo magnético de excitación:</strong> campo generado por los polos de excitación en los motores de corriente directa.</p>
-
-                    </div>
-
+                    <p>En los motores industriales, la densidad de flujo en el entrehierro suele estar en el orden de 0.5 T a 1 T, limitada por la saturación del núcleo de acero.</p>
                 </section>
 
                 <!-- EJEMPLO PRÁCTICO -->
-
                 <section class="apartado-curso">
-
                     <h2>🧮 Ejemplo práctico</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1.</strong> Se tiene un motor de inducción trifásico de 4 polos conectado a una red de 60 Hz.</p>
 
-                        <p><strong>1.</strong> Se tiene un motor de inducción trifásico en funcionamiento.</p>
+                    <p><strong>2.</strong> La corriente alterna circula por los bobinados del estator y genera un campo magnético giratorio.</p>
 
-                        <p><strong>2.</strong> La corriente alterna circula por los bobinados del estator.</p>
+                    <p><strong>3.</strong> La velocidad de sincronismo es n = 120 × 60 / 4 = 1800 rpm.</p>
 
-                        <p><strong>3.</strong> Se genera un campo magnético giratorio en el entrehierro del motor.</p>
+                    <p><strong>4.</strong> El campo giratorio induce corrientes en el rotor, que a su vez produce su propio campo.</p>
 
-                        <p><strong>4.</strong> El campo giratorio induce una corriente en el rotor.</p>
+                    <p><strong>5.</strong> La interacción de ambos campos genera el par motor; el rotor gira a una velocidad ligeramente menor, por el deslizamiento.</p>
 
-                        <p><strong>5.</strong> La interacción entre los campos genera el par motor que hace girar el eje.</p>
-
-                    </div>
-
+                    <p><strong>6.</strong> Si el rotor girara a 1800 rpm exactas, no habría movimiento relativo, no habría inducción y no habría par. Ese es el motivo del deslizamiento.</p>
                 </section>
 
                 <!-- APLICACIÓN -->
-
                 <section class="apartado-curso">
-
                     <h2>🏭 Aplicación en electromecánica</h2>
 
-                    <div class="proximamente">
+                    <p>El campo magnético se aplica en el funcionamiento de motores, generadores, transformadores, relés, contactores, electroválvulas, frenos electromagnéticos y sensores de proximidad inductivos.</p>
 
-                        <p>El campo magnético se aplica en el funcionamiento de motores, generadores, transformadores, relés, contactores y frenos electromagnéticos industriales.</p>
-
-                    </div>
-
+                    <p>Su control es también la base del mantenimiento predictivo: la medición de flujo y de corriente de excitación permite detectar espiras en corto en bobinados antes de que el motor falle.</p>
                 </section>
 
                 <!-- ERRORES -->
-
                 <section class="apartado-curso">
-
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p><strong>Confundir campo magnético y campo eléctrico:</strong> son fenómenos distintos con efectos diferentes.</p>
-
-                        <p><strong>No considerar la dirección del campo:</strong> la dirección del campo determina el sentido de giro del motor.</p>
-
-                        <p><strong>No respetar la norma IEC:</strong> las unidades y símbolos deben ser normalizados.</p>
-
-                        <p><strong>No considerar la saturación magnética:</strong> el núcleo puede saturarse si el campo es demasiado intenso.</p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Confundir campo magnético y campo eléctrico:</strong> son fenómenos distintos, aunque relacionados; el magnético actúa sobre cargas en movimiento y el eléctrico sobre cargas en reposo.</li>
+                        <li><strong>No considerar la dirección del campo:</strong> la secuencia de fases determina el sentido de giro del campo giratorio y, por tanto, del motor.</li>
+                        <li><strong>Confundir B con H:</strong> la densidad de flujo (T) y la intensidad de campo (A/m) son magnitudes distintas y no intercambiables.</li>
+                        <li><strong>No considerar la saturación magnética:</strong> el núcleo se satura si el flujo es excesivo, y a partir de ahí aumentar la corriente no aumenta el par.</li>
+                        <li><strong>No respetar la norma IEC:</strong> las unidades y símbolos deben ser normalizados.</li>
+                    </ul>
                 </section>
 
                 <!-- EJERCICIOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📝 Ejercicios</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1. ¿Qué es el campo magnético?</strong></p>
+                    <p>Es la región del espacio donde se ejercen fuerzas sobre cargas en movimiento, conductores con corriente y materiales ferromagnéticos.</p>
 
-                        <p><strong>1.</strong> ¿Qué es el campo magnético?</p>
+                    <p><strong>2. ¿Qué tipos de campo magnético existen en un motor?</strong></p>
+                    <p>El del estator, el inducido en el rotor, el resultante en el entrehierro y, en máquinas de corriente directa, el de excitación.</p>
 
-                        <p><strong>2.</strong> ¿Qué tipos de campo magnético existen en un motor?</p>
+                    <p><strong>3. ¿En qué unidades se mide el campo magnético?</strong></p>
+                    <p>La densidad de flujo en teslas (T) y la intensidad de campo en amperes por metro (A/m).</p>
 
-                        <p><strong>3.</strong> ¿En qué unidades se mide el campo magnético?</p>
+                    <p><strong>4. ¿Cómo se genera el campo magnético giratorio?</strong></p>
+                    <p>Por el desfase temporal de las corrientes en los bobinados del estator, que produce un campo resultante que gira en el entrehierro.</p>
 
-                        <p><strong>4.</strong> ¿Cómo se genera el campo magnético giratorio?</p>
-
-                    </div>
-
+                    <p><strong>5.</strong> Un motor de 6 polos opera a 50 Hz. ¿Cuál es su velocidad de sincronismo?</p>
+                    <p>n = 120 × 50 / 6 = 1000 rpm.</p>
                 </section>
 
                 <!-- RESUMEN -->
-
                 <section class="apartado-curso">
-
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>El campo magnético es la región donde se manifiestan fuerzas magnéticas sobre cargas en movimiento, conductores con corriente y materiales ferromagnéticos.</p>
 
-                        <p>El campo magnético es la región donde se manifiestan fuerzas magnéticas sobre cargas en movimiento. Es el principio fundamental del funcionamiento de los motores eléctricos industriales.</p>
-
-                    </div>
-
-                </section>
-
-                <!-- PRÓXIMAMENTE -->
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>🖼️ Imágenes de campo magnético.</p>
-
-                        <p>🧲 Campo magnético giratorio en detalle.</p>
-
-                        <p>🔩 Estator y rotor en detalle.</p>
-
-                        <p>📝 Cuestionario de campo magnético.</p>
-
-                    </div>
-
+                    <p>Es el principio fundamental de los motores eléctricos: el campo giratorio del estator induce corrientes en el rotor y la interacción de ambos campos produce el par.</p>
                 </section>
 
             </div>
-
         </div>
-
     </section>
 
 </main>
 
 <footer>
-
     <p>© 2026 Electromecánica Industrial</p>
-
 </footer>
 
 </body>
-
 </html>
