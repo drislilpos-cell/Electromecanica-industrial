@@ -2,49 +2,31 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Arranque | Motores</title>
-
     <link rel="stylesheet" href="../../css/estilos.css">
-
 </head>
 
 <body>
 
 <header class="encabezado">
-
     <div class="contenedor">
-
         <h1>⚙️ Electromecánica Industrial</h1>
-
         <nav>
-
             <a href="../../index.html">Inicio</a>
-
             <a href="../../cursos.html">Cursos</a>
-
             <a href="../../imagenes.html">Imágenes</a>
-
             <a href="../../conceptos.html">Conceptos</a>
-
         </nav>
-
     </div>
-
 </header>
 
 <main>
 
     <!-- ENCABEZADO -->
-
     <section class="curso-hero">
-
         <div class="contenedor">
-
             <a href="../motores.html" class="volver">← Volver a motores</a>
 
             <span class="etiqueta-semestre">MOTORES</span>
@@ -52,217 +34,169 @@
             <h2>🚀 Arranque</h2>
 
             <p>Proceso de poner en marcha un motor eléctrico, limitando la corriente de arranque para proteger el sistema.</p>
-
         </div>
-
     </section>
 
     <!-- INTRODUCCIÓN -->
-
     <section class="seccion">
-
         <div class="contenedor">
-
             <div class="curso-contenido">
 
                 <section class="apartado-curso">
-
                     <h2>🚀 ¿Qué es el arranque?</h2>
 
                     <p>El arranque es el proceso de poner en marcha un motor eléctrico, limitando la corriente de arranque para proteger el sistema y evitar daños en el motor y en la red eléctrica.</p>
 
-                    <p>En Electromecánica Industrial, el arranque es una etapa crítica porque la corriente de arranque de un motor puede ser varias veces superior a su corriente nominal, lo que puede provocar caídas de voltaje y sobrecalentamiento.</p>
+                    <p>En Electromecánica Industrial, el arranque es una etapa crítica porque la corriente de arranque de un motor de inducción puede ser de 6 a 8 veces su corriente nominal, lo que provoca caídas de voltaje, calentamiento de conductores y esfuerzos mecánicos en la carga.</p>
 
-                    <p>Existen diferentes métodos de arranque según el tipo de motor y la aplicación, según la norma IEC.</p>
-
+                    <p>Existen diferentes métodos de arranque según el tipo de motor, la potencia y la aplicación, conforme a las normas IEC 60034 y IEC 60947.</p>
                 </section>
 
                 <!-- CONCEPTOS RELACIONADOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📚 Conceptos relacionados</h2>
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="campo-magnetico.html" class="concepto-card">
                             <span>🧲</span>
                             <h3>Campo magnético</h3>
                             <p>Región donde se manifiestan fuerzas magnéticas sobre cargas en movimiento.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="motor-corriente-alterna.html" class="concepto-card">
                             <span>〰️</span>
                             <h3>Motor de corriente alterna</h3>
                             <p>Motor que funciona con corriente alterna, el más utilizado en la industria.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="motor-induccion.html" class="concepto-card">
                             <span>🔁</span>
                             <h3>Motor de inducción</h3>
                             <p>Motor que funciona por inducción electromagnética entre estator y rotor.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="proteccion-motor.html" class="concepto-card">
                             <span>🛡️</span>
                             <h3>Protección del motor</h3>
                             <p>Sistemas que protegen al motor contra sobrecargas y fallas.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="velocidad.html" class="concepto-card">
                             <span>⏱️</span>
                             <h3>Velocidad</h3>
                             <p>Rapidez con la que gira el eje del motor en revoluciones por minuto.</p>
                         </a>
 
                     </div>
-
                 </section>
 
                 <!-- TIPOS -->
-
                 <section class="apartado-curso">
-
                     <h2>🧬 Tipos de arranque</h2>
 
-                    <div class="proximamente">
+                    <ul>
+                        <li><strong>Arranque directo (DOL):</strong> el motor se conecta directamente a la red. Es el más simple y económico, pero la corriente de arranque llega a 6–8 veces la nominal. Se usa en motores pequeños o cuando la red lo soporta.</li>
+                        <li><strong>Arranque estrella-triángulo:</strong> el motor arranca en conexión estrella y conmuta a triángulo al alcanzar velocidad. Reduce la corriente de arranque a cerca de un tercio, pero también el par, y exige un motor de 6 bornes cuya tensión de triángulo coincida con la de red.</li>
+                        <li><strong>Arranque por autotransformador:</strong> se reduce el voltaje de arranque mediante tomas del autotransformador. Permite ajustar la reducción y mantener un par mayor que el estrella-triángulo.</li>
+                        <li><strong>Arranque por resistencias o reactancias en serie:</strong> se limita la corriente con impedancia en el circuito del estator. Sencillo, pero con pérdidas y calentamiento.</li>
+                        <li><strong>Arranque con arrancador suave (soft starter):</strong> controla el voltaje por tiristores y rampa la subida, reduciendo el golpe de corriente y el esfuerzo mecánico.</li>
+                        <li><strong>Arranque con variador de frecuencia (VFD):</strong> controla voltaje y frecuencia, permitiendo arranque con par pleno a corriente reducida y regulación de velocidad.</li>
+                        <li><strong>Arranque rotor devanado:</strong> exclusivo de motores de anillos rozantes; se insertan resistencias en el rotor para elevar el par con corriente reducida.</li>
+                    </ul>
+                </section>
 
-                        <p><strong>Arranque directo:</strong> el motor se conecta directamente a la red, el método más simple pero con alta corriente de arranque.</p>
+                <!-- CRITERIOS -->
+                <section class="apartado-curso">
+                    <h2>📊 Cómo elegir el método</h2>
 
-                        <p><strong>Arranque estrella-triángulo:</strong> el motor arranca en conexión estrella y luego conmuta a triángulo para reducir la corriente.</p>
-
-                        <p><strong>Arranque por autotransformador:</strong> se reduce el voltaje de arranque mediante un autotransformador.</p>
-
-                        <p><strong>Arranque con variador de frecuencia:</strong> se controla la velocidad y la corriente mediante un variador de frecuencia.</p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Potencia del motor:</strong> a mayor potencia, mayor impacto del arranque en la red.</li>
+                        <li><strong>Capacidad de la red:</strong> la caída de voltaje durante el arranque no debe superar el 5% en los bornes del motor.</li>
+                        <li><strong>Tipo de carga:</strong> bombas y ventiladores arrancan descargados; transportadores y molinos arrancan con carga y requieren par elevado.</li>
+                        <li><strong>Frecuencia de arranques:</strong> los arranques repetidos exigen métodos que limiten el calentamiento.</li>
+                        <li><strong>Necesidad de regulación:</strong> si además se requiere variar la velocidad, el VFD resuelve ambas funciones.</li>
+                    </ul>
                 </section>
 
                 <!-- EJEMPLO PRÁCTICO -->
-
                 <section class="apartado-curso">
-
                     <h2>🧮 Ejemplo práctico</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1.</strong> Se tiene un motor trifásico de 30 kW a 220 V que debe arrancarse en una planta industrial.</p>
 
-                        <p><strong>1.</strong> Se tiene un motor trifásico de 30 kW que debe arrancarse en una planta industrial.</p>
+                    <p><strong>2.</strong> Su corriente nominal es aproximadamente 95 A, por lo que el arranque directo exigiría entre 570 A y 760 A.</p>
 
-                        <p><strong>2.</strong> La corriente de arranque directo sería muy elevada para la red de suministro.</p>
+                    <p><strong>3.</strong> Esa corriente provocaría una caída de voltaje inaceptable en la red de la planta.</p>
 
-                        <p><strong>3.</strong> Se selecciona un arranque estrella-triángulo para reducir la corriente de arranque.</p>
+                    <p><strong>4.</strong> Se selecciona un arranque estrella-triángulo, que reduce la corriente de arranque a cerca de un tercio: alrededor de 190 A a 250 A.</p>
 
-                        <p><strong>4.</strong> El motor arranca en conexión estrella y luego conmuta a triángulo.</p>
+                    <p><strong>5.</strong> El motor arranca en estrella y, al alcanzar cerca del 80% de su velocidad nominal, conmuta a triángulo.</p>
 
-                        <p><strong>5.</strong> La corriente de arranque se reduce a aproximadamente un tercio de la del arranque directo.</p>
-
-                    </div>
-
+                    <p><strong>6.</strong> El par de arranque también cae a un tercio, por lo que el método solo es válido si la carga arranca descargada o con poco par resistente.</p>
                 </section>
 
                 <!-- APLICACIÓN -->
-
                 <section class="apartado-curso">
-
                     <h2>🏭 Aplicación en electromecánica</h2>
 
-                    <div class="proximamente">
+                    <p>El arranque se aplica en motores de bombas, compresores, ventiladores, transportadores, molinos y otras máquinas industriales, protegiendo el sistema y la red eléctrica.</p>
 
-                        <p>El arranque se aplica en el arranque de motores de bombas, compresores, ventiladores, transportadores y otras máquinas industriales, protegiendo el sistema y la red eléctrica.</p>
-
-                    </div>
-
+                    <p>La selección del método incide directamente en el dimensionamiento de conductores, contactores, protecciones y en la factura de demanda eléctrica de la planta.</p>
                 </section>
 
                 <!-- ERRORES -->
-
                 <section class="apartado-curso">
-
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p><strong>Seleccionar un método de arranque inadecuado:</strong> cada aplicación requiere un método específico según la potencia y la carga.</p>
-
-                        <p><strong>No dimensionar correctamente los dispositivos:</strong> contactores y protecciones deben dimensionarse para la corriente de arranque.</p>
-
-                        <p><strong>No considerar la caída de voltaje:</strong> la corriente de arranque provoca caídas de voltaje en la red.</p>
-
-                        <p><strong>No respetar la norma IEC:</strong> las unidades y símbolos deben ser normalizados.</p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Seleccionar un método de arranque inadecuado:</strong> cada aplicación requiere un método específico según la potencia y la carga.</li>
+                        <li><strong>No dimensionar correctamente los dispositivos:</strong> contactores y protecciones deben dimensionarse para la corriente de arranque, no solo para la nominal.</li>
+                        <li><strong>No considerar la caída de voltaje:</strong> la corriente de arranque provoca caídas de voltaje que afectan a otros equipos de la red.</li>
+                        <li><strong>Aplicar estrella-triángulo a un motor de 3 bornes:</strong> solo funciona en motores de 6 bornes con la tensión de triángulo igual a la de red.</li>
+                        <li><strong>Ignorar el par de arranque:</strong> reducir la corriente también reduce el par; con carga pesada el motor no acelera.</li>
+                        <li><strong>No respetar la norma IEC:</strong> las unidades, símbolos y coordinación de protecciones deben ser normalizados.</li>
+                    </ul>
                 </section>
 
                 <!-- EJERCICIOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📝 Ejercicios</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1. ¿Qué es el arranque de un motor?</strong></p>
+                    <p>Es el proceso de poner en marcha el motor controlando la corriente que demanda de la red durante la aceleración.</p>
 
-                        <p><strong>1.</strong> ¿Qué es el arranque de un motor?</p>
+                    <p><strong>2. ¿Qué tipos de arranque existen?</strong></p>
+                    <p>Directo, estrella-triángulo, por autotransformador, por resistencias, con arrancador suave, con variador de frecuencia y con rotor devanado.</p>
 
-                        <p><strong>2.</strong> ¿Qué tipos de arranque existen?</p>
+                    <p><strong>3. ¿Por qué se limita la corriente de arranque?</strong></p>
+                    <p>Para evitar caídas de voltaje en la red, sobrecalentamiento de conductores y esfuerzos mecánicos en la carga y en el propio motor.</p>
 
-                        <p><strong>3.</strong> ¿Por qué se limita la corriente de arranque?</p>
+                    <p><strong>4. ¿Qué es el arranque estrella-triángulo?</strong></p>
+                    <p>Un método que arranca el motor en estrella para reducir el voltaje por fase y conmuta a triángulo al alcanzar velocidad.</p>
 
-                        <p><strong>4.</strong> ¿Qué es el arranque estrella-triángulo?</p>
-
-                    </div>
-
+                    <p><strong>5.</strong> Un motor de 30 kW a 220 V tiene una corriente nominal de 95 A. ¿Qué corriente de arranque se espera en directo y en estrella-triángulo?</p>
+                    <p>En directo, entre 570 A y 760 A (6 a 8 veces la nominal). En estrella-triángulo, cerca de un tercio: entre 190 A y 253 A.</p>
                 </section>
 
                 <!-- RESUMEN -->
-
                 <section class="apartado-curso">
-
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>El arranque es el proceso de poner en marcha un motor eléctrico, limitando la corriente de arranque para proteger el sistema.</p>
 
-                        <p>El arranque es el proceso de poner en marcha un motor eléctrico, limitando la corriente de arranque para proteger el sistema. Existen métodos como el directo, estrella-triángulo y con variador.</p>
-
-                    </div>
-
-                </section>
-
-                <!-- PRÓXIMAMENTE -->
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>🖼️ Imágenes de arranque de motores.</p>
-
-                        <p>🚀 Arranque estrella-triángulo en detalle.</p>
-
-                        <p>🔧 Arranque con variador de frecuencia.</p>
-
-                        <p>📝 Cuestionario de arranque.</p>
-
-                    </div>
-
+                    <p>Los métodos van del directo al variador de frecuencia, y la elección depende de la potencia, la red, la carga y la necesidad de regulación de velocidad.</p>
                 </section>
 
             </div>
-
         </div>
-
     </section>
 
 </main>
 
 <footer>
-
     <p>© 2026 Electromecánica Industrial</p>
-
 </footer>
 
 </body>
-
 </html>
