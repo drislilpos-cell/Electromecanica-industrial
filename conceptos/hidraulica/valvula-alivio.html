@@ -9,7 +9,7 @@
 
     <title>Válvula de alivio | Hidráulica</title>
 
-    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 
@@ -42,6 +42,8 @@
 
 <main>
 
+
+    <!-- ENCABEZADO -->
 
     <section class="curso-hero">
 
@@ -104,31 +106,31 @@
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="presion.html" class="concepto-card">
                             <span>📊</span>
                             <h3>Presión hidráulica</h3>
                             <p>La válvula limita la presión máxima del sistema.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="bomba-hidraulica.html" class="concepto-card">
                             <span>⚙️</span>
                             <h3>Bomba hidráulica</h3>
                             <p>La válvula protege la bomba de sobrepresión.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="valvulas.html" class="concepto-card">
                             <span>🔀</span>
                             <h3>Válvulas direccionales</h3>
                             <p>Controlan la dirección del flujo en el circuito.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="deposito-hidraulico.html" class="concepto-card">
                             <span>🛢️</span>
                             <h3>Depósito hidráulico</h3>
                             <p>El fluido desviado por la válvula regresa al depósito.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="circuito-hidraulico.html" class="concepto-card">
                             <span>🔄</span>
                             <h3>Circuito hidráulico</h3>
                             <p>La válvula forma parte del circuito de seguridad.</p>
@@ -143,29 +145,44 @@
 
                     <h2>📐 Tipos de válvulas de alivio</h2>
 
-                    <div class="proximamente">
+                    <ul>
+                        <li><strong>Válvula de alivio directa:</strong> un resorte mantiene cerrado el obturador y cede cuando la presión vence su fuerza; es sencilla y rápida, pero menos precisa.</li>
+                        <li><strong>Válvula pilotada:</strong> una etapa piloto controla la apertura de la etapa principal, lo que permite mayor precisión y caudales más altos.</li>
+                        <li><strong>Válvula proporcional:</strong> regula la presión de forma gradual mediante una señal eléctrica, útil en control automático.</li>
+                        <li><strong>Válvula de secuencia:</strong> permite el paso del fluido hacia un segundo circuito al alcanzar cierta presión.</li>
+                    </ul>
 
-                        <p>
-                            🛡️ <strong>Válvula de alivio directa:</strong> abre
-                            directamente cuando la presión supera el límite.
-                        </p>
+                    <p>
+                        No debe confundirse con la válvula de alivio de
+                        seguridad de un acumulador, que responde a un
+                        criterio de seguridad y no de regulación.
+                    </p>
 
-                        <p>
-                            ⚙️ <strong>Válvula pilotada:</strong> utiliza una
-                            válvula piloto para controlar la apertura.
-                        </p>
+                </section>
 
-                        <p>
-                            🔧 <strong>Válvula proporcional:</strong> regula la
-                            presión de forma gradual y controlada.
-                        </p>
 
-                        <p>
-                            📊 <strong>Válvula de secuencia:</strong> permite el
-                            paso del fluido al alcanzar cierta presión.
-                        </p>
+                <section class="apartado-curso">
 
-                    </div>
+                    <h2>🧮 Ajuste de la válvula</h2>
+
+                    <p>
+                        La válvula se calibra por encima de la presión
+                        máxima de trabajo, para que no abra durante la
+                        operación normal, pero por debajo de la presión
+                        límite de los componentes:
+                    </p>
+
+                    <p>
+                        <strong>Ajuste:</strong> p ajuste = (1,1 a 1,2) × p trabajo
+                    </p>
+
+                    <p>
+                        Donde p trabajo es la presión máxima que exige la
+                        carga y p ajuste el valor al que se regula el resorte.
+                        El ajuste se realiza con un manómetro conectado al
+                        circuito y se verifica con el fluido a temperatura
+                        de operación.
+                    </p>
 
                 </section>
 
@@ -177,25 +194,31 @@
                     <div class="proximamente">
 
                         <p>
-                            1. La bomba impulsa fluido hacia el circuito.
+                            1-El cilindro del sistema necesita 120 bar
+                            para mover su carga.
                         </p>
 
                         <p>
-                            2. La presión del sistema comienza a aumentar.
+                            2-Con un factor de 1,15, la válvula se ajusta
+                            a unos 138 bar.
                         </p>
 
                         <p>
-                            3. Si la presión supera el valor de ajuste,
-                            la válvula de alivio se abre.
+                            3-La bomba impulsa fluido y la presión sube
+                            hasta que la carga se mueve, alrededor de
+                            120 bar.
                         </p>
 
                         <p>
-                            4. El fluido se desvía de regreso al depósito.
+                            4-Si la carga se traba, la presión sube hasta
+                            el ajuste y la válvula abre, desviando el
+                            fluido al depósito.
                         </p>
 
                         <p>
-                            5. La presión del sistema se mantiene
-                            dentro del límite seguro.
+                            5-La presión queda limitada y la bomba, las
+                            mangueras y el cilindro trabajan dentro de
+                            su rango seguro.
                         </p>
 
                     </div>
@@ -207,25 +230,12 @@
 
                     <h2>🏭 Aplicaciones</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            🚜 Sistemas hidráulicos de maquinaria pesada.
-                        </p>
-
-                        <p>
-                            🏭 Prensas y máquinas herramienta.
-                        </p>
-
-                        <p>
-                            ⚙️ Protección de bombas y actuadores.
-                        </p>
-
-                        <p>
-                            🚗 Sistemas de frenos y dirección hidráulica.
-                        </p>
-
-                    </div>
+                    <ul>
+                        <li><strong>Sistemas hidráulicos de maquinaria pesada:</strong> protección del circuito principal y de los implementos.</li>
+                        <li><strong>Prensas y máquinas herramienta:</strong> limitación de la fuerza máxima de prensado.</li>
+                        <li><strong>Protección de bombas y actuadores:</strong> ante bloqueos, sobrecargas o fallos de la válvula direccional.</li>
+                        <li><strong>Sistemas de frenos y dirección hidráulica:</strong> control de la presión de trabajo en el circuito.</li>
+                    </ul>
 
                 </section>
 
@@ -234,27 +244,13 @@
 
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            ❌ Ajustar la válvula a un valor demasiado alto.
-                        </p>
-
-                        <p>
-                            ❌ No verificar el correcto funcionamiento
-                            de la válvula.
-                        </p>
-
-                        <p>
-                            ❌ Ignorar la presión máxima del sistema.
-                        </p>
-
-                        <p>
-                            ❌ Confundir la válvula de alivio con otras
-                            válvulas de control.
-                        </p>
-
-                    </div>
+                    <ul>
+                        <li>Ajustar la válvula a un valor demasiado alto, lo que deja el sistema sin protección real.</li>
+                        <li>Ajustarla demasiado baja, lo que provoca calentamiento y pérdida de fuerza.</li>
+                        <li>No verificar su funcionamiento ni su calibración periódica.</li>
+                        <li>Ignorar la presión máxima que soportan mangueras, sellos y componentes.</li>
+                        <li>Confundir la válvula de alivio con otras válvulas de control, como las direccionales o las reductoras.</li>
+                    </ul>
 
                 </section>
 
@@ -265,25 +261,17 @@
 
                     <div class="proximamente">
 
-                        <p>
-                            <strong>1.</strong> ¿Cuál es la función de la
-                            válvula de alivio?
-                        </p>
+                        <p><strong>1. ¿Cuál es la función de la válvula de alivio?</strong></p>
+                        <p>Limitar la presión máxima del sistema para proteger sus componentes.</p>
 
-                        <p>
-                            <strong>2.</strong> ¿Qué sucede si la presión
-                            supera el valor de ajuste?
-                        </p>
+                        <p><strong>2. ¿Qué sucede si la presión supera el valor de ajuste?</strong></p>
+                        <p>La válvula abre y desvía el fluido, normalmente de regreso al depósito.</p>
 
-                        <p>
-                            <strong>3.</strong> Menciona dos tipos de
-                            válvulas de alivio.
-                        </p>
+                        <p><strong>3. Menciona dos tipos de válvulas de alivio.</strong></p>
+                        <p>Directa y pilotada; también existen proporcionales y de secuencia.</p>
 
-                        <p>
-                            <strong>4.</strong> ¿Por qué es importante la
-                            válvula de alivio en un sistema hidráulico?
-                        </p>
+                        <p><strong>4. ¿Por qué es importante la válvula de alivio en un sistema hidráulico?</strong></p>
+                        <p>Porque evita sobrepresiones que dañarían la bomba, las mangueras, los sellos y los actuadores.</p>
 
                     </div>
 
@@ -294,51 +282,20 @@
 
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>
+                        La válvula de alivio limita la presión máxima
+                        del sistema.
+                    </p>
 
-                        <p>
-                            La válvula de alivio limita la presión máxima
-                            del sistema.
-                        </p>
+                    <p>
+                        Se abre cuando la presión supera el valor
+                        establecido y desvía el fluido.
+                    </p>
 
-                        <p>
-                            Se abre cuando la presión supera el valor
-                            establecido y desvía el fluido.
-                        </p>
-
-                        <p>
-                            Es un elemento esencial de seguridad en
-                            los circuitos hidráulicos.
-                        </p>
-
-                    </div>
-
-                </section>
-
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>
-                            🖼️ Imágenes de válvulas de alivio.
-                        </p>
-
-                        <p>
-                            🛡️ Ajuste y calibración de válvulas.
-                        </p>
-
-                        <p>
-                            🔧 Mantenimiento de válvulas de seguridad.
-                        </p>
-
-                        <p>
-                            📝 Cuestionario de hidráulica.
-                        </p>
-
-                    </div>
+                    <p>
+                        Es un elemento esencial de seguridad en
+                        los circuitos hidráulicos.
+                    </p>
 
                 </section>
 
