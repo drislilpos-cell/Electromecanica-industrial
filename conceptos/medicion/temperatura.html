@@ -2,267 +2,205 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Medición de temperatura | Medición</title>
-
     <link rel="stylesheet" href="../../css/estilos.css">
-
 </head>
 
 <body>
 
 <header class="encabezado">
-
     <div class="contenedor">
-
         <h1>⚙️ Electromecánica Industrial</h1>
-
         <nav>
-
             <a href="../../index.html">Inicio</a>
-
             <a href="../../cursos.html">Cursos</a>
-
             <a href="../../imagenes.html">Imágenes</a>
-
             <a href="../../conceptos.html">Conceptos</a>
-
         </nav>
-
     </div>
-
 </header>
 
 <main>
 
     <!-- ENCABEZADO -->
-
     <section class="curso-hero">
-
         <div class="contenedor">
-
             <a href="../medicion.html" class="volver">← Volver a medición</a>
 
             <span class="etiqueta-semestre">MEDICIÓN</span>
 
             <h2>🌡️ Medición de temperatura</h2>
 
-            <p>Proceso de medir la temperatura de un sistema mediante termómetros o sensores de temperatura.</p>
-
+            <p>Proceso de determinar la temperatura de un sistema mediante termómetros o sensores de temperatura.</p>
         </div>
-
     </section>
 
     <!-- INTRODUCCIÓN -->
-
     <section class="seccion">
-
         <div class="contenedor">
-
             <div class="curso-contenido">
 
                 <section class="apartado-curso">
-
                     <h2>🌡️ ¿Qué es la medición de temperatura?</h2>
 
-                    <p>La medición de temperatura es el proceso de medir la temperatura de un sistema mediante termómetros o sensores de temperatura, expresada en grados Celsius(°C), kelvin(K) o grados Fahrenheit(°F).</p>
+                    <p>La medición de temperatura es el proceso de determinar la temperatura de un sistema mediante termómetros o sensores de temperatura, expresada en grados Celsius (°C), kelvin (K) o grados Fahrenheit (°F).</p>
 
                     <p>En Electromecánica Industrial, la medición de temperatura es fundamental para la protección de motores, la verificación del funcionamiento de los equipos, el control de los procesos térmicos y la detección de sobrecalentamientos.</p>
 
-                    <p>Se mide con termómetros analógicos o digitales, termopares y sensores de temperatura, según la norma IEC.</p>
-
+                    <p>Se realiza con termómetros digitales, termopares, termorresistencias (RTD) y termistores, según la norma IEC 60751 para RTD y la IEC 60584 para termopares.</p>
                 </section>
 
                 <!-- CONCEPTOS RELACIONADOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📚 Conceptos relacionados</h2>
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="presion.html" class="concepto-card">
                             <span>🧲</span>
                             <h3>Medición de presión</h3>
                             <p>Proceso de medir la presión de un fluido o gas.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="caudal.html" class="concepto-card">
                             <span>💧</span>
                             <h3>Medición de caudal</h3>
                             <p>Proceso de medir la cantidad de fluido que circula por una tubería.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="instrumentos-medicion.html" class="concepto-card">
                             <span>🛠️</span>
                             <h3>Instrumentos de medición</h3>
                             <p>Dispositivos utilizados para medir la temperatura de un sistema.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="unidades-medida.html" class="concepto-card">
                             <span>📐</span>
                             <h3>Unidades de medida</h3>
                             <p>Sistemas de unidades utilizados para expresar la temperatura.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="error-medicion.html" class="concepto-card">
                             <span>⚠️</span>
                             <h3>Error de medición</h3>
                             <p>Diferencia entre el valor medido y el real de la temperatura.</p>
                         </a>
 
                     </div>
-
                 </section>
 
                 <!-- TIPOS -->
-
                 <section class="apartado-curso">
+                    <h2>🧬 Tipos de instrumentos de medición de temperatura</h2>
 
-                    <h2>🧬 Tipos de medición de temperatura</h2>
+                    <p>Los instrumentos se agrupan según el principio físico que aprovechan. Conviene distinguirlos porque cada uno tiene un rango y una aplicación distinta.</p>
 
-                    <div class="proximamente">
+                    <ul>
+                        <li><strong>Termopar:</strong> aprovecha el efecto Seebeck, la diferencia de potencial que aparece entre dos metales distintos unidos en un extremo. Rango amplio, de −200 °C a 1 300 °C según el tipo, respuesta rápida y bajo costo.</li>
+                        <li><strong>Termorresistencia (RTD):</strong> basada en la variación de resistencia del platino con la temperatura. Es el patrón de referencia industrial por su estabilidad y exactitud.</li>
+                        <li><strong>Termistor:</strong> semiconductor cuya resistencia cambia con la temperatura. Muy sensible y económico, pero con rango limitado, útil en electrónica y protecciones.</li>
+                        <li><strong>Termómetro bimetálico:</strong> dos metales de distinto coeficiente de dilatación unidos; la lámina se curva y mueve una aguja. Robusto y sin alimentación, típico en tableros.</li>
+                        <li><strong>Pirómetro infrarrojo:</strong> mide la radiación térmica emitida por el cuerpo sin contacto. Ideal para partes móviles o peligrosas.</li>
+                    </ul>
 
-                        <p><strong>Termómetro de mercurio:</strong> mide la temperatura mediante la expansión del mercurio en un tubo capilar.</p>
+                    <p>Los termómetros de mercurio y de vidrio quedaron fuera del uso industrial y educativo por su fragilidad y toxicidad; se sustituyen por instrumentos digitales.</p>
+                </section>
 
-                        <p><strong>Termopar:</strong> mide la temperatura mediante la diferencia de potencial generada entre dos metales distintos.</p>
+                <!-- ESCALAS -->
+                <section class="apartado-curso">
+                    <h2>📐 Escalas y conversión</h2>
 
-                        <p><strong>Termistor:</strong> mide la temperatura mediante la variación de la resistencia de un semiconductor.</p>
+                    <p>Las tres escalas se relacionan mediante conversiones directas. Conociendo una, se obtienen las otras:</p>
 
-                        <p><strong>Sensor de temperatura:</strong> dispositivo electrónico que convierte la temperatura en una señal eléctrica.</p>
+                    <ul>
+                        <li><strong>De Celsius a Fahrenheit:</strong> °F = (9 ÷ 5) × °C + 32</li>
+                        <li><strong>De Celsius a kelvin:</strong> K = °C + 273.15</li>
+                        <li><strong>De Fahrenheit a Celsius:</strong> °C = (5 ÷ 9) × (°F − 32)</li>
+                    </ul>
 
-                    </div>
-
+                    <p>Ejemplo: un motor que opera a 80 °C equivale a (9 ÷ 5) × 80 + 32 = 176 °F, y a 80 + 273.15 = 353.15 K.</p>
                 </section>
 
                 <!-- EJEMPLO PRÁCTICO -->
-
                 <section class="apartado-curso">
-
                     <h2>🧮 Ejemplo práctico</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1.</strong> Se tiene un motor que debe protegerse contra sobrecalentamiento.</p>
 
-                        <p><strong>1.</strong> Se tiene un motor que debe protegerse contra sobrecalentamiento.</p>
+                    <p><strong>2.</strong> Se instalan termorresistencias PT100 en los devanados del motor.</p>
 
-                        <p><strong>2.</strong> Se instala un sensor de temperatura en los devanados del motor.</p>
+                    <p><strong>3.</strong> El sensor entrega una señal eléctrica proporcional a la temperatura.</p>
 
-                        <p><strong>3.</strong> El sensor envía una señal eléctrica proporcional a la temperatura.</p>
+                    <p><strong>4.</strong> Se verifica que la temperatura se mantenga dentro del rango permitido por el fabricante.</p>
 
-                        <p><strong>4.</strong> Se verifica que la temperatura se mantenga dentro del rango permitido.</p>
+                    <p><strong>5.</strong> Si la temperatura supera el límite, se activa una alarma y se detiene el motor.</p>
 
-                        <p><strong>5.</strong> Si la temperatura supera el límite, se activa una alarma y se detiene el motor.</p>
-
-                    </div>
-
+                    <p><strong>6.</strong> La lectura se compara con la clase de aislamiento del motor: un motor clase F admite hasta 155 °C en el punto más caliente del devanado.</p>
                 </section>
 
                 <!-- APLICACIÓN -->
-
                 <section class="apartado-curso">
-
                     <h2>🏭 Aplicación en electromecánica</h2>
 
-                    <div class="proximamente">
+                    <p>La medición de temperatura se aplica en la protección de motores, la verificación del funcionamiento de los equipos, el control de procesos térmicos y la detección de sobrecalentamientos industriales.</p>
 
-                        <p>La medición de temperatura se aplica en la protección de motores, la verificación del funcionamiento de los equipos, el control de procesos térmicos y la detección de sobrecalentamientos industriales.</p>
-
-                    </div>
-
+                    <p>También es la base de los lazos de control en hornos, intercambiadores de calor y sistemas hidráulicos, donde una temperatura fuera de rango degrada el aceite y acorta la vida de los componentes.</p>
                 </section>
 
                 <!-- ERRORES -->
-
                 <section class="apartado-curso">
-
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p><strong>Confundir las escalas de temperatura:</strong> mezclar grados Celsius, kelvin y Fahrenheit provoca errores de cálculo.</p>
-
-                        <p><strong>No calibrar el termómetro:</strong> la falta de calibración provoca errores sistemáticos.</p>
-
-                        <p><strong>Instalar el sensor en un punto inadecuado:</strong> la ubicación afecta la precisión de la medición.</p>
-
-                        <p><strong>No respetar la norma IEC:</strong> las unidades y símbolos deben ser normalizados.</p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Confundir las escalas de temperatura:</strong> mezclar grados Celsius, kelvin y Fahrenheit provoca errores de cálculo.</li>
+                        <li><strong>No calibrar el termómetro:</strong> la falta de calibración provoca errores sistemáticos.</li>
+                        <li><strong>Instalar el sensor en un punto inadecuado:</strong> la ubicación afecta la precisión de la medición.</li>
+                        <li><strong>No compensar la junta fría del termopar:</strong> sin compensación, la lectura se desvía varios grados.</li>
+                        <li><strong>No respetar la norma IEC:</strong> las unidades y símbolos deben ser normalizados.</li>
+                    </ul>
                 </section>
 
                 <!-- EJERCICIOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📝 Ejercicios</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1. ¿Qué es la medición de temperatura?</strong></p>
+                    <p>Es el proceso de determinar la temperatura de un sistema mediante un instrumento calibrado, expresada en una escala normalizada.</p>
 
-                        <p><strong>1.</strong> ¿Qué es la medición de temperatura?</p>
+                    <p><strong>2. ¿Qué instrumento se utiliza para medir la temperatura?</strong></p>
+                    <p>Termopares, termorresistencias RTD, termistores, termómetros bimetálicos o pirómetros infrarrojos, según el rango y la precisión requeridos.</p>
 
-                        <p><strong>2.</strong> ¿Qué instrumento se utiliza para medir la temperatura?</p>
+                    <p><strong>3. ¿En qué unidades se expresa la temperatura?</strong></p>
+                    <p>En grados Celsius (°C), kelvin (K) o grados Fahrenheit (°F). El kelvin es la unidad del Sistema Internacional.</p>
 
-                        <p><strong>3.</strong> ¿En qué unidades se expresa la temperatura?</p>
+                    <p><strong>4. ¿Qué es un termopar?</strong></p>
+                    <p>Es un sensor formado por dos metales distintos unidos en un extremo que genera una tensión proporcional a la diferencia de temperatura entre esa unión y la de referencia.</p>
 
-                        <p><strong>4.</strong> ¿Qué es un termopar?</p>
-
-                    </div>
-
+                    <p><strong>5.</strong> Convierte 45 °C a Fahrenheit y a kelvin.</p>
+                    <p>Fahrenheit: (9 ÷ 5) × 45 + 32 = 81 + 32 = 113 °F.</p>
+                    <p>Kelvin: 45 + 273.15 = 318.15 K.</p>
                 </section>
 
                 <!-- RESUMEN -->
-
                 <section class="apartado-curso">
-
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>La medición de temperatura es el proceso de determinar la temperatura de un sistema mediante termómetros o sensores de temperatura.</p>
 
-                        <p>La medición de temperatura es el proceso de medir la temperatura de un sistema mediante termómetros o sensores de temperatura. Es fundamental para la protección de motores y el control de los procesos térmicos.</p>
-
-                    </div>
-
-                </section>
-
-                <!-- PRÓXIMAMENTE -->
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>🖼️ Imágenes de medición de temperatura.</p>
-
-                        <p>🌡️ Termopar en detalle.</p>
-
-                        <p>🔧 Sensor de temperatura en detalle.</p>
-
-                        <p>📝 Cuestionario de medición de temperatura.</p>
-
-                    </div>
-
+                    <p>Es fundamental para la protección de motores y el control de los procesos térmicos, y exige instrumentos calibrados y escalas correctamente convertidas.</p>
                 </section>
 
             </div>
-
         </div>
-
     </section>
 
 </main>
 
 <footer>
-
     <p>© 2026 Electromecánica Industrial</p>
-
 </footer>
 
 </body>
-
 </html>
