@@ -2,325 +2,211 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Señales | Electrónica</title>
-
     <link rel="stylesheet" href="../../css/estilos.css">
-
 </head>
-
 
 <body>
 
-
 <header class="encabezado">
-
     <div class="contenedor">
-
         <h1>⚙️ Electromecánica Industrial</h1>
-
         <nav>
-
             <a href="../../index.html">Inicio</a>
-
             <a href="../../cursos.html">Cursos</a>
-
             <a href="../../imagenes.html">Imágenes</a>
-
             <a href="../../conceptos.html">Conceptos</a>
-
         </nav>
-
     </div>
-
 </header>
-
 
 <main>
 
-
     <!-- ENCABEZADO -->
-
     <section class="curso-hero">
-
         <div class="contenedor">
+            <a href="../electronica.html" class="volver">← Volver a electrónica</a>
 
-            <a href="../electronica.html" class="volver">
-                ← Volver a electrónica
-            </a>
-
-            <span class="etiqueta-semestre">
-                ELECTRÓNICA
-            </span>
+            <span class="etiqueta-semestre">ELECTRÓNICA</span>
 
             <h2>📶 Señales</h2>
 
             <p>
                 Aprende qué son las señales analógicas y digitales, cómo
                 se transmiten y cómo se utilizan en los sistemas de
-                control y automatización industrial. 
+                control y automatización industrial.
             </p>
-
         </div>
-
     </section>
 
-
     <!-- INTRODUCCIÓN -->
-
     <section class="seccion">
-
         <div class="contenedor">
-
             <div class="curso-contenido">
 
-
                 <section class="apartado-curso">
-
                     <h2>📶 ¿Qué es una señal?</h2>
 
                     <p>
                         Una señal es una variación de una magnitud física
                         —como voltaje, corriente o frecuencia— que transporta
                         información. En la industria, las señales transmiten
-                        datos de sensores, actuadores y sistemas de control. 
+                        datos de sensores, actuadores y sistemas de control.
                     </p>
 
                     <p>
                         En Electromecánica Industrial, las señales son la base
                         de la comunicación entre sensores, PLC, variadores y
-                        actuadores. Pueden ser analógicas o digitales. 
+                        actuadores. Pueden ser analógicas o digitales.
                     </p>
 
                     <p>
                         Las señales analógicas varían de forma continua,
                         mientras que las digitales toman valores discretos
-                        (0 y 1). 
+                        (0 y 1).
                     </p>
-
                 </section>
 
-
                 <!-- CONCEPTOS RELACIONADOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📚 Conceptos relacionados</h2>
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="amplificador.html" class="concepto-card">
                             <span>📢</span>
                             <h3>Amplificador</h3>
                             <p>Circuito que aumenta la amplitud de las señales débiles.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="circuito-integrado.html" class="concepto-card">
                             <span>🧩</span>
                             <h3>Circuito integrado</h3>
                             <p>Procesa las señales digitales y analógicas.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="transistor.html" class="concepto-card">
                             <span>🔺</span>
                             <h3>Transistor</h3>
                             <p>Componente que conmuta y amplifica las señales.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="resistencia.html" class="concepto-card">
                             <span>Ω</span>
                             <h3>Resistencia</h3>
                             <p>Componente que acondiciona las señales en los circuitos.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="capacitor.html" class="concepto-card">
                             <span>🔋</span>
                             <h3>Capacitor</h3>
                             <p>Componente que filtra el ruido de las señales.</p>
                         </a>
 
                     </div>
-
                 </section>
-
 
                 <!-- TIPOS -->
-
                 <section class="apartado-curso">
-
                     <h2>🧬 Tipos de señales</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            <strong>Analógicas:</strong> varían de forma continua, como 4-20 mA, 0-10 V y señales de sensores de temperatura. 
-                        </p>
-
-                        <p>
-                            <strong>Digitales:</strong> toman valores discretos (0 y 1), como las salidas de interruptores y sensores de proximidad. 
-                        </p>
-
-                        <p>
-                            <strong>PWM (modulación por ancho de pulso):</strong> señal digital que varía el ancho de los pulsos para controlar potencia. 
-                        </p>
-
-                        <p>
-                            <strong>De comunicación:</strong> transmiten datos entre dispositivos, como RS-485, Profibus y Ethernet. 
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Analógicas:</strong> varían de forma continua, como 4-20 mA, 0-10 V y señales de sensores de temperatura.</li>
+                        <li><strong>Digitales:</strong> toman valores discretos (0 y 1), como las salidas de interruptores y sensores de proximidad.</li>
+                        <li><strong>PWM (modulación por ancho de pulso):</strong> señal digital que varía el ancho de los pulsos para controlar potencia.</li>
+                        <li><strong>De comunicación:</strong> transmiten datos entre dispositivos, como RS-485, Profibus y Ethernet.</li>
+                    </ul>
                 </section>
-
 
                 <!-- EJEMPLO PRÁCTICO -->
-
                 <section class="apartado-curso">
-
                     <h2>🧮 Ejemplo práctico</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1.</strong> Un sensor de temperatura entrega una señal analógica de 4-20 mA.</p>
 
-                        <p><strong>1.</strong> Un sensor de temperatura entrega una señal analógica de 4-20 mA.</p>
+                    <p><strong>2.</strong> A 0 °C entrega 4 mA y a 100 °C entrega 20 mA.</p>
 
-                        <p><strong>2.</strong> A 0 °C entrega 4 mA y a 100 °C entrega 20 mA.</p>
+                    <p><strong>3.</strong> El PLC recibe la señal y la convierte a un valor digital mediante su convertidor A/D.</p>
 
-                        <p><strong>3.</strong> El PLC recibe la señal y la convierte a un valor digital mediante su convertidor A/D.</p>
+                    <p><strong>4.</strong> El programa procesa el valor y determina la temperatura medida.</p>
 
-                        <p><strong>4.</strong> El programa procesa el valor y determina la temperatura medida.</p>
+                    <p><strong>5.</strong> El PLC activa las salidas para controlar la calefacción o refrigeración del proceso.</p>
 
-                        <p><strong>5.</strong> El PLC activa las salidas para controlar la calefacción o refrigeración del proceso.</p>
-
-                    </div>
-
+                    <p><strong>6.</strong> La escala es lineal: T = (I − 4 mA) × 100 °C / 16 mA. Con 12 mA: T = (12 − 4) × 100 / 16 = 50 °C.</p>
                 </section>
-
 
                 <!-- APLICACIÓN -->
-
                 <section class="apartado-curso">
-
                     <h2>🏭 Aplicación en electromecánica</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            Las señales se utilizan en la comunicación entre sensores, PLC, variadores y actuadores, en sistemas de medición, control de procesos y automatización industrial. 
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Sensores analógicos:</strong> presión, temperatura y nivel enviados al PLC por 4-20 mA.</li>
+                        <li><strong>Variadores de frecuencia:</strong> reciben consigna por 0-10 V o 4-20 mA y devuelven señales de estado.</li>
+                        <li><strong>Control de procesos:</strong> lazos PID que ajustan válvulas y motores según la medición.</li>
+                        <li><strong>Redes industriales:</strong> Profibus, Modbus y Ethernet transportan datos entre PLC, HMI y periferia.</li>
+                        <li><strong>PWM:</strong> regulación de velocidad de motores CD y control de calentadores.</li>
+                    </ul>
                 </section>
-
 
                 <!-- ERRORES -->
-
                 <section class="apartado-curso">
-
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            <strong>Confundir señales analógicas y digitales:</strong> tienen comportamientos y usos distintos en la industria. 
-                        </p>
-
-                        <p>
-                            <strong>No considerar el ruido:</strong> el ruido eléctrico distorsiona las señales analógicas y provoca errores. 
-                        </p>
-
-                        <p>
-                            <strong>Mezclar niveles de voltaje:</strong> conectar señales de 0-10 V a entradas de 4-20 mA daña los equipos. 
-                        </p>
-
-                        <p>
-                            <strong>Ignorar la conversión A/D:</strong> el PLC debe convertir la señal analógica a digital para procesarla. 
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Confundir señales analógicas y digitales:</strong> tienen comportamientos y usos distintos en la industria.</li>
+                        <li><strong>No considerar el ruido:</strong> el ruido eléctrico distorsiona las señales analógicas y provoca errores.</li>
+                        <li><strong>Mezclar niveles de voltaje:</strong> conectar señales de 0-10 V a entradas de 4-20 mA daña los equipos.</li>
+                        <li><strong>Ignorar la conversión A/D:</strong> el PLC debe convertir la señal analógica a digital para procesarla.</li>
+                    </ul>
                 </section>
-
 
                 <!-- EJERCICIOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📝 Ejercicios</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1. ¿Cuál es la diferencia entre una señal analógica y una digital?</strong></p>
+                    <p>La analógica varía de forma continua en el tiempo y puede tomar cualquier valor dentro de un rango; la digital solo toma valores discretos, normalmente dos niveles (0 y 1).</p>
 
-                        <p><strong>1.</strong> ¿Cuál es la diferencia entre una señal analógica y una digital?</p>
+                    <p><strong>2. ¿Qué significa una señal de 4-20 mA?</strong></p>
+                    <p>Que el sensor entrega 4 mA en el valor mínimo de su rango y 20 mA en el máximo; el nivel de 4 mA permite detectar un cable roto, porque una lectura de 0 mA indica falla.</p>
 
-                        <p><strong>2.</strong> ¿Qué significa una señal de 4-20 mA?</p>
+                    <p><strong>3. ¿Cómo convierte el PLC una señal analógica en un valor digital?</strong></p>
+                    <p>Con un convertidor A/D que muestrea la señal y la traduce a un número entero proporcional, por ejemplo de 0 a 27648 en PLC Siemens o de 0 a 4095 en un módulo de 12 bits.</p>
 
-                        <p><strong>3.</strong> ¿Cómo convierte el PLC una señal analógica en un valor digital?</p>
+                    <p><strong>4. ¿Qué es una señal PWM y para qué se utiliza?</strong></p>
+                    <p>Una señal digital que varía la proporción de tiempo en alto (ciclo de trabajo) para entregar potencia media variable; se usa en variadores de CD, calentadores y control de brillo.</p>
 
-                        <p><strong>4.</strong> ¿Qué es una señal PWM y para qué se utiliza?</p>
-
-                    </div>
-
+                    <p><strong>5. Un sensor de presión de 0-10 bar entrega 4-20 mA. ¿Qué presión indica una lectura de 14.4 mA?</strong></p>
+                    <p>P = (14.4 − 4) × 10 / 16 = 6.5 bar.</p>
                 </section>
-
 
                 <!-- RESUMEN -->
-
                 <section class="apartado-curso">
-
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>
+                        Las señales transportan información entre sensores,
+                        PLC y actuadores. Pueden ser analógicas, digitales,
+                        PWM o de comunicación.
+                    </p>
 
-                        <p>
-                            Las señales transportan información entre sensores, PLC y actuadores. Pueden ser analógicas, digitales, PWM o de comunicación. Son la base de la medición, el control de procesos y la automatización industrial. 
-                        </p>
-
-                    </div>
-
+                    <p>
+                        Son la base de la medición, el control de procesos y
+                        la automatización industrial.
+                    </p>
                 </section>
-
-
-                <!-- PRÓXIMAMENTE -->
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>🖼️ Imágenes de señales analógicas y digitales.</p>
-
-                        <p>📶 Conversión analógica-digital (A/D).</p>
-
-                        <p>🔧 Señales 4-20 mA en la industria.</p>
-
-                        <p>📝 Cuestionario de señales.</p>
-
-                    </div>
-
-                </section>
-
 
             </div>
-
         </div>
-
     </section>
-
 
 </main>
 
-
 <footer>
-
     <p>© 2026 Electromecánica Industrial</p>
-
 </footer>
-
 
 </body>
 
