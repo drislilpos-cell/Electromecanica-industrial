@@ -2,92 +2,58 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Rectificador | Electrónica</title>
-
     <link rel="stylesheet" href="../../css/estilos.css">
-
 </head>
-
 
 <body>
 
-
 <header class="encabezado">
-
     <div class="contenedor">
-
         <h1>⚙️ Electromecánica Industrial</h1>
-
         <nav>
-
             <a href="../../index.html">Inicio</a>
-
             <a href="../../cursos.html">Cursos</a>
-
             <a href="../../imagenes.html">Imágenes</a>
-
             <a href="../../conceptos.html">Conceptos</a>
-
         </nav>
-
     </div>
-
 </header>
-
 
 <main>
 
-
     <!-- ENCABEZADO -->
-
     <section class="curso-hero">
-
         <div class="contenedor">
+            <a href="../electronica.html" class="volver">← Volver a electrónica</a>
 
-            <a href="../electronica.html" class="volver">
-                ← Volver a electrónica
-            </a>
-
-            <span class="etiqueta-semestre">
-                ELECTRÓNICA
-            </span>
+            <span class="etiqueta-semestre">ELECTRÓNICA</span>
 
             <h2>🔄 Rectificador</h2>
 
             <p>
                 Aprende qué es un rectificador, cómo convierte la corriente
                 alterna en continua y cómo se utiliza en las fuentes de
-                alimentación industriales. 
+                alimentación industriales.
             </p>
-
         </div>
-
     </section>
 
-
     <!-- INTRODUCCIÓN -->
-
     <section class="seccion">
-
         <div class="contenedor">
-
             <div class="curso-contenido">
 
-
                 <section class="apartado-curso">
-
                     <h2>🔄 ¿Qué es un rectificador?</h2>
 
                     <p>
                         El rectificador es un circuito electrónico que
                         convierte la corriente alterna (CA) en corriente
                         continua (CD), utilizando diodos que permiten el
-                        paso de la corriente en una sola dirección. 
+                        paso de la corriente en una sola dirección.
                     </p>
 
                     <p>
@@ -95,234 +61,155 @@
                         son fundamentales en fuentes de alimentación,
                         cargadores de baterías, variadores de frecuencia,
                         soldadoras y sistemas de control que requieren
-                        corriente continua. 
+                        corriente continua.
                     </p>
 
                     <p>
                         Existen rectificadores de media onda, de onda
                         completa y trifásicos, según la configuración
-                        de los diodos. 
+                        de los diodos.
                     </p>
-
                 </section>
 
-
                 <!-- CONCEPTOS RELACIONADOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📚 Conceptos relacionados</h2>
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="diodo.html" class="concepto-card">
                             <span>➡️</span>
                             <h3>Diodo</h3>
                             <p>Componente principal del rectificador que permite la corriente en una dirección.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="capacitor.html" class="concepto-card">
                             <span>🔋</span>
                             <h3>Capacitor</h3>
                             <p>Componente que filtra la señal rectificada para suavizarla.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="inductor.html" class="concepto-card">
                             <span>🌀</span>
                             <h3>Inductor</h3>
                             <p>Componente que ayuda a filtrar y estabilizar la corriente de salida.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="semiconductor.html" class="concepto-card">
                             <span>🔬</span>
                             <h3>Semiconductor</h3>
                             <p>Material base de los diodos del rectificador.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="led.html" class="concepto-card">
                             <span>💡</span>
                             <h3>LED</h3>
                             <p>Indicador que puede señalar el funcionamiento del rectificador.</p>
                         </a>
 
                     </div>
-
                 </section>
-
 
                 <!-- TIPOS -->
-
                 <section class="apartado-curso">
-
                     <h2>🧬 Tipos de rectificadores</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            <strong>De media onda:</strong> utiliza un solo diodo y aprovecha solo la mitad de la señal alterna. 
-                        </p>
-
-                        <p>
-                            <strong>De onda completa:</strong> utiliza cuatro diodos en puente y aprovecha ambas mitades de la señal. 
-                        </p>
-
-                        <p>
-                            <strong>Trifásico:</strong> utiliza seis diodos para rectificar las tres fases, con menor ondulación. 
-                        </p>
-
-                        <p>
-                            <strong>Controlado:</strong> utiliza tiristores para regular el voltaje de salida. 
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>De media onda:</strong> utiliza un solo diodo y aprovecha solo la mitad de la señal alterna.</li>
+                        <li><strong>De onda completa:</strong> utiliza cuatro diodos en puente y aprovecha ambas mitades de la señal.</li>
+                        <li><strong>Trifásico:</strong> utiliza seis diodos para rectificar las tres fases, con menor ondulación.</li>
+                        <li><strong>Controlado:</strong> utiliza tiristores para regular el voltaje de salida.</li>
+                    </ul>
                 </section>
-
 
                 <!-- EJEMPLO PRÁCTICO -->
-
                 <section class="apartado-curso">
-
                     <h2>🧮 Ejemplo práctico</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1.</strong> Se tiene una red de 220 V CA que debe alimentar un circuito de control de 24 V CD.</p>
 
-                        <p><strong>1.</strong> Se tiene una red de 220 V CA que debe alimentar un circuito de control de 24 V CD.</p>
+                    <p><strong>2.</strong> Un transformador reduce el voltaje a 24 V CA.</p>
 
-                        <p><strong>2.</strong> Un transformador reduce el voltaje a 24 V CA.</p>
+                    <p><strong>3.</strong> Un puente rectificador de cuatro diodos convierte la señal en continua pulsante.</p>
 
-                        <p><strong>3.</strong> Un puente rectificador de cuatro diodos convierte la señal en continua pulsante.</p>
+                    <p><strong>4.</strong> Un capacitor de filtrado suaviza la señal, reduciendo la ondulación.</p>
 
-                        <p><strong>4.</strong> Un capacitor de filtrado suaviza la señal, reduciendo la ondulación.</p>
+                    <p><strong>5.</strong> La salida es una corriente continua estable que alimenta el PLC y los sensores.</p>
 
-                        <p><strong>5.</strong> La salida es una corriente continua estable que alimenta el PLC y los sensores.</p>
-
-                    </div>
-
+                    <p><strong>6.</strong> El valor medio de salida en un puente monofásico es Vcd = 0.9 × VCA. Con 24 V CA: Vcd = 0.9 × 24 V = 21.6 V. Al filtrar con capacitor, la salida sube hacia el valor pico: Vp = 24 V × 1.414 = 33.9 V, por eso se elige un capacitor de tensión nominal de al menos 50 V.</p>
                 </section>
-
 
                 <!-- APLICACIÓN -->
-
                 <section class="apartado-curso">
-
                     <h2>🏭 Aplicación en electromecánica</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            Los rectificadores se utilizan en fuentes de alimentación, cargadores de baterías, variadores de frecuencia, soldadoras y sistemas de control que requieren corriente continua. 
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Fuentes de alimentación:</strong> etapa de entrada de fuentes lineales y conmutadas.</li>
+                        <li><strong>Cargadores de baterías:</strong> convierten la CA de red en la CD de carga.</li>
+                        <li><strong>Variadores de frecuencia:</strong> rectifican la red antes del bus de CD y del inversor.</li>
+                        <li><strong>Soldadoras:</strong> rectificadores controlados regulan la corriente de soldadura.</li>
+                        <li><strong>Sistemas de control:</strong> alimentan PLC, sensores y relés de 24 V CD.</li>
+                    </ul>
                 </section>
-
 
                 <!-- ERRORES -->
-
                 <section class="apartado-curso">
-
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            <strong>Confundir media onda con onda completa:</strong> la onda completa aprovecha ambas mitades y tiene menos ondulación. 
-                        </p>
-
-                        <p>
-                            <strong>Usar diodos con corriente insuficiente:</strong> pueden sobrecalentarse y destruirse. 
-                        </p>
-
-                        <p>
-                            <strong>No filtrar la señal:</strong> sin capacitor, la salida tiene ondulación excesiva que daña los circuitos sensibles. 
-                        </p>
-
-                        <p>
-                            <strong>Conectar mal el puente:</strong> invertir los diodos provoca cortocircuitos o falta de rectificación. 
-                        </p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Confundir media onda con onda completa:</strong> la onda completa aprovecha ambas mitades y tiene menos ondulación.</li>
+                        <li><strong>Usar diodos con corriente insuficiente:</strong> pueden sobrecalentarse y destruirse.</li>
+                        <li><strong>No filtrar la señal:</strong> sin capacitor, la salida tiene ondulación excesiva que daña los circuitos sensibles.</li>
+                        <li><strong>Conectar mal el puente:</strong> invertir los diodos provoca cortocircuitos o falta de rectificación.</li>
+                    </ul>
                 </section>
-
 
                 <!-- EJERCICIOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📝 Ejercicios</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1. ¿Cuál es la función principal de un rectificador?</strong></p>
+                    <p>Convertir corriente alterna en corriente continua, dejando pasar la corriente en un solo sentido.</p>
 
-                        <p><strong>1.</strong> ¿Cuál es la función principal de un rectificador?</p>
+                    <p><strong>2. ¿Qué diferencia hay entre un rectificador de media onda y uno de onda completa?</strong></p>
+                    <p>El de media onda usa un diodo y aprovecha solo medio ciclo; el de onda completa usa cuatro diodos en puente y aprovecha los dos ciclos, con el doble de frecuencia de ondulación.</p>
 
-                        <p><strong>2.</strong> ¿Qué diferencia hay entre un rectificador de media onda y uno de onda completa?</p>
+                    <p><strong>3. ¿Por qué se utiliza un capacitor después del puente rectificador?</strong></p>
+                    <p>Porque almacena carga en los picos y la entrega en los valles, reduciendo la ondulación y acercando la salida a un valor continuo.</p>
 
-                        <p><strong>3.</strong> ¿Por qué se utiliza un capacitor después del puente rectificador?</p>
+                    <p><strong>4. ¿Qué tipo de rectificador se utiliza en los variadores de frecuencia?</strong></p>
+                    <p>Un puente trifásico de seis diodos, o un puente controlado con tiristores cuando se requiere regular el bus de CD.</p>
 
-                        <p><strong>4.</strong> ¿Qué tipo de rectificador se utiliza en los variadores de frecuencia?</p>
-
-                    </div>
-
+                    <p><strong>5. Un puente monofásico alimentado con 48 V CA entrega un valor medio de...</strong></p>
+                    <p>Vcd = 0.9 × 48 V = 43.2 V.</p>
                 </section>
-
 
                 <!-- RESUMEN -->
-
                 <section class="apartado-curso">
-
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>
+                        El rectificador convierte corriente alterna en
+                        continua mediante diodos. Existen de media onda,
+                        onda completa, trifásicos y controlados.
+                    </p>
 
-                        <p>
-                            El rectificador convierte corriente alterna en continua mediante diodos. Existen de media onda, onda completa, trifásicos y controlados. Se utilizan en fuentes, cargadores, variadores y sistemas de control industrial. 
-                        </p>
-
-                    </div>
-
+                    <p>
+                        Se utilizan en fuentes, cargadores, variadores y
+                        sistemas de control industrial, y casi siempre van
+                        acompañados de un filtro con capacitor o inductor.
+                    </p>
                 </section>
-
-
-                <!-- PRÓXIMAMENTE -->
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>🖼️ Imágenes de rectificadores y sus configuraciones.</p>
-
-                        <p>🔄 Puente rectificador y su funcionamiento.</p>
-
-                        <p>⚡ Rectificadores trifásicos en la industria.</p>
-
-                        <p>📝 Cuestionario de rectificadores.</p>
-
-                    </div>
-
-                </section>
-
 
             </div>
-
         </div>
-
     </section>
-
 
 </main>
 
-
 <footer>
-
     <p>© 2026 Electromecánica Industrial</p>
-
 </footer>
-
 
 </body>
 
