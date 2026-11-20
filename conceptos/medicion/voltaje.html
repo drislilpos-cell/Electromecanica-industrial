@@ -2,49 +2,31 @@
 <html lang="es">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Medición de voltaje | Medición</title>
-
     <link rel="stylesheet" href="../../css/estilos.css">
-
 </head>
 
 <body>
 
 <header class="encabezado">
-
     <div class="contenedor">
-
         <h1>⚙️ Electromecánica Industrial</h1>
-
         <nav>
-
             <a href="../../index.html">Inicio</a>
-
             <a href="../../cursos.html">Cursos</a>
-
             <a href="../../imagenes.html">Imágenes</a>
-
             <a href="../../conceptos.html">Conceptos</a>
-
         </nav>
-
     </div>
-
 </header>
 
 <main>
 
     <!-- ENCABEZADO -->
-
     <section class="curso-hero">
-
         <div class="contenedor">
-
             <a href="../medicion.html" class="volver">← Volver a medición</a>
 
             <span class="etiqueta-semestre">MEDICIÓN</span>
@@ -52,217 +34,167 @@
             <h2>⚡ Medición de voltaje</h2>
 
             <p>Proceso de medir la diferencia de potencial entre dos puntos de un circuito mediante un voltímetro.</p>
-
         </div>
-
     </section>
 
     <!-- INTRODUCCIÓN -->
-
     <section class="seccion">
-
         <div class="contenedor">
-
             <div class="curso-contenido">
 
                 <section class="apartado-curso">
-
                     <h2>⚡ ¿Qué es la medición de voltaje?</h2>
 
-                    <p>La medición de voltaje es el proceso de medir la diferencia de potencial entre dos puntos de un circuito mediante un voltímetro, expresada en voltios(V).</p>
+                    <p>La medición de voltaje es el proceso de medir la diferencia de potencial entre dos puntos de un circuito mediante un voltímetro, expresada en volts (V).</p>
 
                     <p>En Electromecánica Industrial, la medición de voltaje es fundamental para verificar el suministro de energía, detectar fallas en los circuitos y garantizar el correcto funcionamiento de los equipos.</p>
 
                     <p>El voltímetro se conecta en paralelo con el circuito y puede medir tanto corriente continua (CC) como corriente alterna (CA), según la norma IEC.</p>
-
                 </section>
 
                 <!-- CONCEPTOS RELACIONADOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📚 Conceptos relacionados</h2>
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="corriente.html" class="concepto-card">
                             <span>🔌</span>
                             <h3>Medición de corriente</h3>
                             <p>Proceso de medir la intensidad de corriente con un amperímetro.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="resistencia.html" class="concepto-card">
                             <span>Ω</span>
                             <h3>Medición de resistencia</h3>
                             <p>Proceso de medir la resistencia eléctrica con un óhmetro.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="instrumentos-medicion.html" class="concepto-card">
                             <span>🛠️</span>
                             <h3>Instrumentos de medición</h3>
                             <p>Dispositivos utilizados para medir el voltaje de un circuito.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="unidades-medida.html" class="concepto-card">
                             <span>📐</span>
                             <h3>Unidades de medida</h3>
                             <p>Sistemas de unidades utilizados para expresar el voltaje.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="error-medicion.html" class="concepto-card">
                             <span>⚠️</span>
                             <h3>Error de medición</h3>
                             <p>Diferencia entre el valor medido y el real del voltaje.</p>
                         </a>
 
                     </div>
-
                 </section>
 
                 <!-- TIPOS -->
-
                 <section class="apartado-curso">
-
                     <h2>🧬 Tipos de medición de voltaje</h2>
 
-                    <div class="proximamente">
+                    <ul>
+                        <li><strong>Voltaje de corriente continua (CC):</strong> se mide en circuitos alimentados por baterías y fuentes de alimentación.</li>
+                        <li><strong>Voltaje de corriente alterna (CA):</strong> se mide en circuitos alimentados por la red eléctrica industrial.</li>
+                        <li><strong>Voltaje entre fases:</strong> se mide entre dos conductores de fase en un sistema trifásico.</li>
+                        <li><strong>Voltaje entre fase y neutro:</strong> se mide entre un conductor de fase y el neutro del sistema.</li>
+                    </ul>
 
-                        <p><strong>Voltaje de corriente continua (CC):</strong> se mide en circuitos alimentados por baterías y fuentes de alimentación.</p>
+                    <p>En un sistema trifásico equilibrado, la relación entre ambos es fija: el voltaje entre fases es √3 veces el voltaje fase-neutro. Por eso una red de 220 V entre fases da 127 V fase-neutro, y una de 400 V da 231 V.</p>
+                </section>
 
-                        <p><strong>Voltaje de corriente alterna (CA):</strong> se mide en circuitos alimentados por la red eléctrica industrial.</p>
+                <!-- INSTRUMENTOS -->
+                <section class="apartado-curso">
+                    <h2>🔧 Cómo se mide correctamente</h2>
 
-                        <p><strong>Voltaje entre fases:</strong> se mide entre dos conductores de fase en un sistema trifásico.</p>
-
-                        <p><strong>Voltaje entre fase y neutro:</strong> se mide entre un conductor de fase y el neutro del sistema.</p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Seleccionar la función:</strong> CA o CC según la naturaleza de la señal; confundirlas es el error más común.</li>
+                        <li><strong>Elegir la escala:</strong> empezar por la más alta y bajar, o usar autorango.</li>
+                        <li><strong>Conectar en paralelo:</strong> las puntas van entre los dos puntos cuya diferencia de potencial se quiere conocer.</li>
+                        <li><strong>Verificar la categoría de seguridad:</strong> en tableros industriales se requiere un multímetro CAT III o CAT IV.</li>
+                        <li><strong>Usar el verdadero valor eficaz (True RMS):</strong> imprescindible cuando la señal no es senoidal pura, como en variadores de frecuencia.</li>
+                    </ul>
                 </section>
 
                 <!-- EJEMPLO PRÁCTICO -->
-
                 <section class="apartado-curso">
-
                     <h2>🧮 Ejemplo práctico</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1.</strong> Se tiene un tablero de distribución que alimenta varios motores.</p>
 
-                        <p><strong>1.</strong> Se tiene un tablero de distribución que alimenta varios motores.</p>
+                    <p><strong>2.</strong> Se mide el voltaje entre fases con un multímetro en la escala de volts CA.</p>
 
-                        <p><strong>2.</strong> Se mide el voltaje entre fases con un multímetro en la escala de voltios CA.</p>
+                    <p><strong>3.</strong> El multímetro indica 220 V entre fases.</p>
 
-                        <p><strong>3.</strong> El multímetro indica un voltaje de 400 V entre fases.</p>
+                    <p><strong>4.</strong> Se mide el voltaje entre fase y neutro, que indica 127 V.</p>
 
-                        <p><strong>4.</strong> Se mide el voltaje entre fase y neutro, que indica 230 V.</p>
+                    <p><strong>5.</strong> Se comprueba la relación: 220 ÷ √3 ≈ 127 V, lo que confirma un sistema trifásico equilibrado.</p>
 
-                        <p><strong>5.</strong> Los valores medidos se comparan con los nominales para verificar el suministro.</p>
-
-                    </div>
-
+                    <p><strong>6.</strong> Los valores medidos se comparan con los nominales para verificar el suministro.</p>
                 </section>
 
                 <!-- APLICACIÓN -->
-
                 <section class="apartado-curso">
-
                     <h2>🏭 Aplicación en electromecánica</h2>
 
-                    <div class="proximamente">
+                    <p>La medición de voltaje se aplica en la verificación del suministro de energía, la detección de fallas, el control de motores y el mantenimiento de las instalaciones eléctricas industriales.</p>
 
-                        <p>La medición de voltaje se aplica en la verificación del suministro de energía, la detección de fallas, el control de motores y el mantenimiento de las instalaciones eléctricas industriales.</p>
-
-                    </div>
-
+                    <p>Una caída de tensión superior al 5% en los bornes del motor indica conductores subdimensionados o conexiones flojas, y es una causa frecuente de sobrecalentamiento y falla prematura.</p>
                 </section>
 
                 <!-- ERRORES -->
-
                 <section class="apartado-curso">
-
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p><strong>Conectar el voltímetro en serie:</strong> debe conectarse en paralelo con el circuito.</p>
-
-                        <p><strong>No seleccionar la escala correcta:</strong> una escala inadecuada daña el instrumento o da lecturas erróneas.</p>
-
-                        <p><strong>Confundir CC y CA:</strong> medir CA en la escala de CC da lecturas incorrectas.</p>
-
-                        <p><strong>No respetar la norma IEC:</strong> las unidades y símbolos deben ser normalizados.</p>
-
-                    </div>
-
+                    <ul>
+                        <li><strong>Conectar el voltímetro en serie:</strong> debe conectarse en paralelo con el circuito.</li>
+                        <li><strong>No seleccionar la escala correcta:</strong> una escala inadecuada daña el instrumento o da lecturas erróneas.</li>
+                        <li><strong>Confundir CC y CA:</strong> medir CA en la escala de CC da lecturas incorrectas.</li>
+                        <li><strong>Usar un multímetro de categoría insuficiente:</strong> un instrumento CAT II en un tablero industrial expone al operador a un arco eléctrico.</li>
+                        <li><strong>No respetar la norma IEC:</strong> las unidades y símbolos deben ser normalizados.</li>
+                    </ul>
                 </section>
 
                 <!-- EJERCICIOS -->
-
                 <section class="apartado-curso">
-
                     <h2>📝 Ejercicios</h2>
 
-                    <div class="proximamente">
+                    <p><strong>1. ¿Qué es la medición de voltaje?</strong></p>
+                    <p>Es el proceso de determinar la diferencia de potencial entre dos puntos de un circuito mediante un voltímetro.</p>
 
-                        <p><strong>1.</strong> ¿Qué es la medición de voltaje?</p>
+                    <p><strong>2. ¿Qué instrumento se utiliza para medir el voltaje?</strong></p>
+                    <p>El voltímetro, que suele venir integrado en el multímetro digital.</p>
 
-                        <p><strong>2.</strong> ¿Qué instrumento se utiliza para medir el voltaje?</p>
+                    <p><strong>3. ¿Cómo se conecta el voltímetro?</strong></p>
+                    <p>En paralelo con el elemento o los puntos cuya diferencia de potencial se desea medir.</p>
 
-                        <p><strong>3.</strong> ¿Cómo se conecta el voltímetro?</p>
+                    <p><strong>4. ¿En qué unidades se expresa el voltaje?</strong></p>
+                    <p>En volts (V), con sus múltiplos kilovolt (kV) y submúltiplos milivolt (mV) y microvolt (µV).</p>
 
-                        <p><strong>4.</strong> ¿En qué unidades se expresa el voltaje?</p>
-
-                    </div>
-
+                    <p><strong>5.</strong> Un sistema trifásico mide 400 V entre fases. ¿Cuál es el voltaje fase-neutro?</p>
+                    <p>400 ÷ √3 ≈ 231 V.</p>
                 </section>
 
                 <!-- RESUMEN -->
-
                 <section class="apartado-curso">
-
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>La medición de voltaje es el proceso de medir la diferencia de potencial entre dos puntos de un circuito mediante un voltímetro, expresada en volts.</p>
 
-                        <p>La medición de voltaje es el proceso de medir la diferencia de potencial entre dos puntos de un circuito mediante un voltímetro, expresada en voltios. Es fundamental para verificar el suministro y detectar fallas.</p>
-
-                    </div>
-
-                </section>
-
-                <!-- PRÓXIMAMENTE -->
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>🖼️ Imágenes de medición de voltaje.</p>
-
-                        <p>⚡ Voltímetro digital en detalle.</p>
-
-                        <p>🔌 Medición de voltaje trifásico.</p>
-
-                        <p>📝 Cuestionario de medición de voltaje.</p>
-
-                    </div>
-
+                    <p>Es fundamental para verificar el suministro y detectar fallas, siempre con el instrumento en paralelo, la función y escala correctas y la categoría de seguridad adecuada.</p>
                 </section>
 
             </div>
-
         </div>
-
     </section>
 
 </main>
 
 <footer>
-
     <p>© 2026 Electromecánica Industrial</p>
-
 </footer>
 
 </body>
-
 </html>
