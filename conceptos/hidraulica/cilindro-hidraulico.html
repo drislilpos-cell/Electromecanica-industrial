@@ -9,7 +9,7 @@
 
     <title>Cilindro hidráulico | Hidráulica</title>
 
-    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 
@@ -42,6 +42,8 @@
 
 <main>
 
+
+    <!-- ENCABEZADO -->
 
     <section class="curso-hero">
 
@@ -103,31 +105,31 @@
 
                     <div class="conceptos-grid">
 
-                        <a href="#" class="concepto-card">
+                        <a href="presion.html" class="concepto-card">
                             <span>📊</span>
                             <h3>Presión hidráulica</h3>
                             <p>Determina la fuerza del cilindro.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="caudal.html" class="concepto-card">
                             <span>🌊</span>
                             <h3>Caudal</h3>
                             <p>Determina la velocidad del cilindro.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="valvulas.html" class="concepto-card">
                             <span>🔀</span>
                             <h3>Válvulas direccionales</h3>
                             <p>Controlan el movimiento del cilindro.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="bomba-hidraulica.html" class="concepto-card">
                             <span>⚙️</span>
                             <h3>Bomba hidráulica</h3>
                             <p>Proporciona el fluido que mueve el cilindro.</p>
                         </a>
 
-                        <a href="#" class="concepto-card">
+                        <a href="motor-hidraulico.html" class="concepto-card">
                             <span>🔄</span>
                             <h3>Motor hidráulico</h3>
                             <p>Otro tipo de actuador hidráulico.</p>
@@ -142,29 +144,54 @@
 
                     <h2>📐 Tipos de cilindros</h2>
 
-                    <div class="proximamente">
+                    <ul>
+                        <li><strong>Cilindro de simple efecto:</strong> el fluido actúa en una sola dirección y el vástago regresa por la fuerza de un resorte o por su propio peso.</li>
+                        <li><strong>Cilindro de doble efecto:</strong> el fluido actúa en ambas cámaras, por lo que empuja y retrae con fuerza en los dos sentidos.</li>
+                        <li><strong>Cilindro telescópico:</strong> formado por varios segmentos que se extienden uno tras otro, útil cuando se necesita una carrera larga en poco espacio.</li>
+                        <li><strong>Cilindro sin vástago:</strong> el carro se desplaza sobre la carcasa, lo que permite carreras muy largas sin riesgo de pandeo del vástago.</li>
+                    </ul>
 
-                        <p>
-                            ↔️ <strong>Cilindro de simple efecto:</strong> el fluido
-                            actúa en una sola dirección y regresa por resorte.
-                        </p>
+                    <p>
+                        La diferencia práctica más importante está entre
+                        simple y doble efecto: el de doble efecto controla
+                        ambos movimientos y es el más usado en automatización.
+                    </p>
 
-                        <p>
-                            🔄 <strong>Cilindro de doble efecto:</strong> el fluido
-                            actúa en ambas direcciones del movimiento.
-                        </p>
+                </section>
 
-                        <p>
-                            🌀 <strong>Cilindro telescópico:</strong> formado por
-                            varios segmentos que se extienden.
-                        </p>
 
-                        <p>
-                            ⚙️ <strong>Cilindro sin vástago:</strong> el carro se
-                            desplaza sobre la carcasa.
-                        </p>
+                <section class="apartado-curso">
 
-                    </div>
+                    <h2>🧮 Fuerza y velocidad del cilindro</h2>
+
+                    <p>
+                        La fuerza depende de la presión y del área del
+                        pistón. El área se calcula a partir del diámetro
+                        interior del cilindro:
+                    </p>
+
+                    <p>
+                        <strong>Fuerza:</strong> F = p × A
+                    </p>
+
+                    <p>
+                        <strong>Área del pistón:</strong> A = π × d² / 4
+                    </p>
+
+                    <p>
+                        <strong>Velocidad:</strong> v = Q / A
+                    </p>
+
+                    <p>
+                        Donde p es la presión, A el área del pistón, d el
+                        diámetro interior y Q el caudal que entrega la bomba.
+                    </p>
+
+                    <p>
+                        En el retroceso de un cilindro de doble efecto hay
+                        que descontar el área del vástago, por lo que la
+                        fuerza de retorno es algo menor que la de avance.
+                    </p>
 
                 </section>
 
@@ -176,27 +203,31 @@
                     <div class="proximamente">
 
                         <p>
-                            1. La válvula direccional dirige el fluido
-                            hacia un lado del cilindro.
+                            1-Un cilindro de 80 mm de diámetro interior
+                            trabaja a 150 bar. Su área es de 50,27 cm².
                         </p>
 
                         <p>
-                            2. El fluido a presión actúa sobre el pistón.
+                            2-La fuerza de avance es F = p × A = 150 bar × 50,27 cm²,
+                            es decir, unos 75 400 N, aproximadamente 7,5 toneladas.
                         </p>
 
                         <p>
-                            3. La presión genera una fuerza sobre el área
-                            del pistón.
+                            3-Si la bomba entrega 20 L/min, la velocidad
+                            de avance es v = Q / A = 20 000 cm³/min ÷ 50,27 cm²,
+                            unos 398 cm/min, cerca de 6,6 cm/s.
                         </p>
 
                         <p>
-                            4. El pistón se desplaza realizando el trabajo
-                            lineal deseado.
+                            4-La válvula direccional dirige el fluido a la
+                            cámara correspondiente y el pistón se desplaza
+                            realizando el trabajo lineal deseado.
                         </p>
 
                         <p>
-                            5. Al cambiar la válvula, el fluido regresa
-                            el pistón a su posición inicial.
+                            5-Al cambiar la válvula, el fluido entra por el
+                            lado opuesto y el pistón regresa a su posición
+                            inicial.
                         </p>
 
                     </div>
@@ -208,25 +239,12 @@
 
                     <h2>🏭 Aplicaciones</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            🚜 Maquinaria pesada y construcción.
-                        </p>
-
-                        <p>
-                            🏭 Prensas y máquinas herramienta.
-                        </p>
-
-                        <p>
-                            ⚙️ Actuadores en automatización industrial.
-                        </p>
-
-                        <p>
-                            🚗 Sistemas de elevación y dirección hidráulica.
-                        </p>
-
-                    </div>
+                    <ul>
+                        <li><strong>Maquinaria pesada y construcción:</strong> brazos de excavadora, cucharones y estabilizadores.</li>
+                        <li><strong>Prensas y máquinas herramienta:</strong> fuerzas elevadas con desplazamiento controlado.</li>
+                        <li><strong>Actuadores en automatización industrial:</strong> sujeción, empuje y posicionamiento.</li>
+                        <li><strong>Sistemas de elevación y dirección hidráulica:</strong> plataformas, volquetes y dirección asistida.</li>
+                    </ul>
 
                 </section>
 
@@ -235,25 +253,13 @@
 
                     <h2>⚠️ Errores comunes</h2>
 
-                    <div class="proximamente">
-
-                        <p>
-                            ❌ Confundir cilindro de simple y doble efecto.
-                        </p>
-
-                        <p>
-                            ❌ No considerar la fuerza requerida del cilindro.
-                        </p>
-
-                        <p>
-                            ❌ Ignorar el caudal necesario para la velocidad.
-                        </p>
-
-                        <p>
-                            ❌ No considerar las fugas internas del cilindro.
-                        </p>
-
-                    </div>
+                    <ul>
+                        <li>Confundir cilindro de simple y doble efecto al elegir el circuito.</li>
+                        <li>No considerar la fuerza requerida del cilindro antes de seleccionarlo.</li>
+                        <li>Ignorar el caudal necesario para lograr la velocidad deseada.</li>
+                        <li>No considerar las fugas internas del cilindro, que reducen la fuerza y la velocidad.</li>
+                        <li>Elegir una carrera demasiado larga con vástago delgado, lo que provoca pandeo.</li>
+                    </ul>
 
                 </section>
 
@@ -264,25 +270,17 @@
 
                     <div class="proximamente">
 
-                        <p>
-                            <strong>1.</strong> ¿Cuál es la función del cilindro
-                            hidráulico?
-                        </p>
+                        <p><strong>1. ¿Cuál es la función del cilindro hidráulico?</strong></p>
+                        <p>Transformar la energía hidráulica del fluido en movimiento lineal.</p>
 
-                        <p>
-                            <strong>2.</strong> ¿Qué diferencia hay entre simple
-                            y doble efecto?
-                        </p>
+                        <p><strong>2. ¿Qué diferencia hay entre simple y doble efecto?</strong></p>
+                        <p>En el de simple efecto el fluido actúa en una sola dirección y el retorno lo hace un resorte o el peso; en el de doble efecto el fluido actúa en ambas cámaras y controla los dos movimientos.</p>
 
-                        <p>
-                            <strong>3.</strong> ¿Cómo se calcula la fuerza de
-                            un cilindro?
-                        </p>
+                        <p><strong>3. ¿Cómo se calcula la fuerza de un cilindro?</strong></p>
+                        <p>Multiplicando la presión por el área del pistón: F = p × A.</p>
 
-                        <p>
-                            <strong>4.</strong> ¿Qué factores determinan la velocidad
-                            del cilindro?
-                        </p>
+                        <p><strong>4. ¿Qué factores determinan la velocidad del cilindro?</strong></p>
+                        <p>El caudal que entrega la bomba y el área del pistón: v = Q / A.</p>
 
                     </div>
 
@@ -293,50 +291,19 @@
 
                     <h2>📌 Resumen</h2>
 
-                    <div class="proximamente">
+                    <p>
+                        El cilindro hidráulico transforma la energía
+                        del fluido en movimiento lineal.
+                    </p>
 
-                        <p>
-                            El cilindro hidráulico transforma la energía
-                            del fluido en movimiento lineal.
-                        </p>
+                    <p>
+                        La fuerza depende de la presión y del área
+                        del pistón.
+                    </p>
 
-                        <p>
-                            La fuerza depende de la presión y del área
-                            del pistón.
-                        </p>
-
-                        <p>
-                            La velocidad depende del caudal del sistema.
-                        </p>
-
-                    </div>
-
-                </section>
-
-
-                <section class="apartado-curso">
-
-                    <h2>🚧 Próximamente</h2>
-
-                    <div class="proximamente">
-
-                        <p>
-                            🖼️ Imágenes de cilindros hidráulicos.
-                        </p>
-
-                        <p>
-                            ↔️ Selección de cilindros.
-                        </p>
-
-                        <p>
-                            🔧 Mantenimiento de cilindros.
-                        </p>
-
-                        <p>
-                            📝 Cuestionario de hidráulica.
-                        </p>
-
-                    </div>
+                    <p>
+                        La velocidad depende del caudal del sistema.
+                    </p>
 
                 </section>
 
